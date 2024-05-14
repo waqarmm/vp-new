@@ -69,7 +69,7 @@ function AboutUs() {
                 {" "}
                 Our customers are at the heart of everything we do. We listen to
                 their needs, offer personalized solutions, and provide
-                exceptional service to exceed their expectations.
+                exceptional service. 
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ function AboutUs() {
               <p>
                 We embrace innovation and continuously explore new technologies
                 and techniques to enhance the design, functionality, and
-                sustainability of our PVC panels, staying ahead of industry
+                sustainability of our PVC panels, staying  
                 trends and customer demands.
               </p>
             </div>
