@@ -38,7 +38,8 @@
 .Quality h1,
 .Customer-Focus h1,
 .Innovation h1 {
-  width: 60%;
+  width: 80%;
+  /* background-color: rgb(62, 218, 42); */
   margin: 50px auto 10px auto;
   font-family: sans-serif;
   font-stretch: condensed;
@@ -71,12 +72,13 @@
 .Customer-Focus-des p,
 .Innovation-des p,
 .Integrity-des p {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   font-size: large;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 30px;
   color: rgba(71, 76, 83, 0.685);
+  /* background-color: red; */
   
 }
 .Quality-img img {
