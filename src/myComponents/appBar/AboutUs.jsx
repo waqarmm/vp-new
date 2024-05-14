@@ -86,8 +86,7 @@ function AboutUs() {
             <div className="Innovation-img">
               <img src={aboutfour} alt="" />
             </div>
-          </div>
-          <div className="eee"></div>
+          </div> 
         </div>
       </div>
       <FAQ />

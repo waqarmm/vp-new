@@ -6,10 +6,10 @@ import Home from './myComponents/appBar/Home';
 import IndoorProducts from './myComponents/appBar/IndoorProducts';
 import MarbleSheet from './myComponents/appBar/MarbleSheet';
 import SPCFlooring from './myComponents/appBar/SPCFlooring';
-import WPCWallPanel from './myComponents/appBar/WPCWallPanel';
-import WPCFlatPanel from './myComponents/appBar/WPCFlatPanel';
+// import WPCWallPanel from './myComponents/appBar/WPCWallPanel';
+// import WPCFlatPanel from './myComponents/appBar/WPCFlatPanel';
 import WPCTimberTube from './myComponents/appBar/WPCTimberTube';
-import WPCCeiling from './myComponents/appBar/WPCCeiling';
+// import WPCCeiling from './myComponents/appBar/WPCCeiling';
 import ThermalTransferPrinting from './myComponents/appBar/ThermalTransferPrinting';
 import Embossed from './myComponents/appBar/Embossed';
 import PVCFilm from './myComponents/appBar/PVCFilm';
@@ -35,10 +35,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/indoor-products" element={<IndoorProducts />}>
-            <Route path="wpc-wall-panel" element={<WPCWallPanel />} />
-            <Route path="wpc-flat-panel" element={<WPCFlatPanel />} />
+            {/* <Route path="wpc-wall-panel" element={<WPCWallPanel />} /> */}
+            {/* <Route path="wpc-flat-panel" element={<WPCFlatPanel />} /> */}
             <Route path="wpctimber-tube" element={<WPCTimberTube />} />
-            <Route path="wpc-ceiling" element={<WPCCeiling />} />
+            {/* <Route path="wpc-ceiling" element={<WPCCeiling />} /> */}
           </Route>
           <Route path="/marble-sheet" element={<MarbleSheet />}>
             <Route path="thermal-transfer-printing" element={<ThermalTransferPrinting />} />
