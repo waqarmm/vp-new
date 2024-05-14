@@ -82,7 +82,7 @@ const Slider = (props) => {
       <div className="hot-products2">
         <div className="hot-products-heading2">
           <h1>VIEW OUR STYLISH CUSTOM MARBLE</h1>
-          <p>
+          <p className="p">
             We have the Marble floor available in various widths, lengths and
             at 2 different angles. All in 90 different colors so that there are
             options for everyone. Would you like to come by for interior advice?

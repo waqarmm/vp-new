@@ -84,6 +84,12 @@
 
   margin-top: 70px;
 }
+.p{
+ font-size: 17px;
+ font-family: sans-serif;
+ font-stretch: condensed;
+
+}
 .hot-products-items2 {
   height: auto;
   display: grid;
