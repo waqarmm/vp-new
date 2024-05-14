@@ -154,7 +154,7 @@
     .patterns-card-four,
     .patterns-card-five,
     .patterns-card-six {
-      height: 50vh;
+      height: 65vh;
       display: block; 
       display: flex;
       flex-direction: column; 
@@ -194,7 +194,8 @@
       .patterns-card-five-des,
       .patterns-card-six-des {
         width: 100%;
-        height: 55%; 
+        /* background-color: aqua; */
+        height: 50%; 
       }     
       .patterns-card-one-img,
       .patterns-card-two-img,
@@ -203,6 +204,6 @@
       .patterns-card-five-img,
       .patterns-card-six-img {
         width: 100%;
-        height: 45%;
+        height: 50%;
       }
   }
