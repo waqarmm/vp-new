@@ -171,7 +171,7 @@ const Navbar = () => {
         onClose={handleDrawerClose}
         PaperProps={{
           sx: {
-            marginTop: { lg: "5.8%", xs: "10.9%", sm: "4.5%" },
+            marginTop: {xl:'6.8', lg: "5.9%",md:'9%', xs: "15.9%", sm: "8.5%" },
             zIndex: "0",
             position: "fixed",
             boxShadow: "none",
