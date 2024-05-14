@@ -79,15 +79,15 @@ export default function Footer() {
               /> */}
               {/* <h3 style={{color:"green"}}>Visionary_Partners</h3> */}
             </Box>
-            <Box style={{ width: "100%", display: 'flex', justifyContent: "space-between" }}>
+            <Box  style={{ width: "100%", display: 'flex', justifyContent: "space-between" }}>
               <Box
                 sx={{
                   display: { xs: 'flex', sm: 'flex' },
                   flexDirection: 'column',
-                  gap: 2,
+                  gap: 3,
                 }}
               >
-                <Typography variant="body2" color="text.secondary" fontWeight={600}>
+                <Typography variant="body2" color="text.secondary" fontSize="20px" fontWeight="lighter">
                   PRODUCTS
                 </Typography>
                 <Link color="text.secondary" href="#">
@@ -105,16 +105,16 @@ export default function Footer() {
                 </Link>
               </Box>
               <Box
-                sx={{
-                  display: { xs: 'flex', sm: 'flex' },
-                  flexDirection: 'column',
-                  gap: 1,
-                }}
+               sx={{
+                display: { xs: 'flex', sm: 'flex' },
+                flexDirection: 'column',
+                gap: 3,
+              }}
               >
-                <Typography variant="body2" fontWeight={600}>
-                  Company
+                <Typography variant="body2" fontSize="20px" fontWeight="lighter">
+                  COMPANY
                 </Typography>
-                <Link color="text.secondary" href="#">
+                <Link color="text.secondary" fontSize="17px" href="#">
                   About us
                 </Link>
               
@@ -137,7 +137,7 @@ export default function Footer() {
         display="flex"
         flexDirection={{ lg: 'row', xs: 'column', sm: 'column' }}
         justifyContent="space-evenly"
-        mt={{ xs: 4, sm: 2 }}
+        mt={{ xs: 5, sm: 3 }}
         alignItems="center"
       >
         <Box sx={{ width: { lg: "45%", xs: '100%', sm: 'auto' } }}>

@@ -61,7 +61,7 @@ const ContactUs = () => {
             <div className="contact-card-one">
               <div style={{ height: "350px", overflow: "hidden" }}>
                 <img
-                  src={ImgOne}
+                  src={ImgTwo}
                   alt="Contact"
                   style={{
                     marginTop: "30px",

@@ -5,7 +5,8 @@
 .pro-card-img{
   height: 80%;
   width: 100%; 
-
+ border: 1px solid gray;
+ box-shadow: rgb(8, 8, 8);
   position: relative;  
   display: inline-block;  
   overflow: hidden;  
@@ -24,6 +25,7 @@
   max-width: 100%;  
   height: auto;  
   transition: filter 0.2s ease;  
+  
 }
 .pro-card-img::after {
   content: "+";  
