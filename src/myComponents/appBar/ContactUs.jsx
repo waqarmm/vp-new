@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardContent, Typography } from "@mui/material";
+import { CardContent, Typography } from "@mui/material";
 import ImgOne from "../appBar/assets/imgo.jpg";
 import ImgTwo from "../appBar/assets/imgtow.jpg";
 import "../appBar/ContactUs.css";
@@ -17,7 +17,8 @@ const ContactUs = () => {
             style={{
               fontWeight: "lighter",
               marginTop: "50px",
-              fontFamily: "'Roboto', sans-serif",
+              fontFamily: " sans-serif",
+              fontStretch: "extra-condensed",
             }}
           >
             CONTACT
@@ -32,24 +33,8 @@ const ContactUs = () => {
             Do you have questions? Call, email or visit us for a no-obligation
             consultation in one of our showrooms.
           </p>
-          <div
-            className="con-card"
-            style={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "space-between",
-            }}
-          >
-            <Card
-              className="contact-card-one"
-              style={{
-                width: "48%",
-                backgroundColor: "#f5f5f5",
-                margin: "10px",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
+          <div className="con-card">
+          <div className="contact-card-one">
               <div style={{ height: "350px", overflow: "hidden" }}>
                 <img
                   src={ImgOne}
@@ -62,29 +47,21 @@ const ContactUs = () => {
                   }}
                 />
               </div>
-              <CardContent style={{ flex: "1" }}>
-                <Typography variant="body2" color="textSecondary" component="p">
+              <div style={{ flex: "1" }}>
+                <div>
                   <h3 className="yu">farhan durrani designation</h3>
                   <p>+971-50-819-4493</p>
                   <p>visionarypartnersUAE.com</p>
                   <p>info@visionarypartnersUAE.com</p>
                   <p>Warehouse #45,Near China Mall Al jurf,Ajman,UAE</p>
-                </Typography>
-              </CardContent>
-            </Card>
-            <Card
-              className="contact-card-two"
-              style={{
-                width: "48%",
-                backgroundColor: "#f5f5f5",
-                margin: "10px",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
+                </div>
+              </div>
+            </div>
+
+            <div className="contact-card-one">
               <div style={{ height: "350px", overflow: "hidden" }}>
                 <img
-                  src={ImgTwo}
+                  src={ImgOne}
                   alt="Contact"
                   style={{
                     marginTop: "30px",
@@ -94,20 +71,21 @@ const ContactUs = () => {
                   }}
                 />
               </div>
-              <CardContent style={{ flex: "1" }}>
-                <Typography variant="body2" color="textSecondary" component="p">
+              <div style={{ flex: "1" }}>
+                <div>
                   <h3 className="yu">farhan durrani designation</h3>
                   <p>+971-50-819-4493</p>
                   <p>visionarypartnersUAE.com</p>
                   <p>info@visionarypartnersUAE.com</p>
                   <p>Warehouse #45,Near China Mall Al jurf,Ajman,UAE</p>
-                </Typography>
-              </CardContent>
-            </Card>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <FAQ />
+      {/* <FAQ /> */}
+      <div className="aaa"></div>
       <Footer />
     </>
   );

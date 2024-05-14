@@ -9,7 +9,7 @@ const AnnouncementBar = () => {
 
   return (
     <div className="announcement-bar" onClick={handleClick}>
-      <p>Your Premium Partner in PVC Products  →</p>
+      <p>Your Premium Partner in PVC Products  </p>
     </div>
   );
 };

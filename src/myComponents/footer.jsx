@@ -19,7 +19,7 @@ const logoStyle = {
 
 function Copyright() {
   return (
-    <Typography variant="body2" display="flex" color="text.secondary">
+    <Typography variant="body2" fontSize={{xl:"10px" ,lg:"17px",sm:'20px'}} display="flex" color="text.secondary">
       {'Copyright©'}
       <Link style={{ marginRight: '2px' }} href="https://google.com/">Visionary_Partners&nbsp;</Link>
       {new Date().getFullYear()}
@@ -88,7 +88,7 @@ export default function Footer() {
                 }}
               >
                 <Typography variant="body2" color="text.secondary" fontWeight={600}>
-                  Product
+                  PRODUCTS
                 </Typography>
                 <Link color="text.secondary" href="#">
                   Delivery and conditions
@@ -99,22 +99,14 @@ export default function Footer() {
                 <Link color="text.secondary" href="#">
                   Features
                 </Link>
-                <Link color="text.secondary" href="#">
-                  Testimonials
-                </Link>
-                <Link color="text.secondary" href="#">
-                  Highlights
-                </Link>
-                <Link color="text.secondary" href="#">
-                  Pricing
-                </Link>
+
                 <Link color="text.secondary" href="#">
                   FAQs
                 </Link>
               </Box>
               <Box
                 sx={{
-                  display: { xs: 'column', sm: 'flex' },
+                  display: { xs: 'flex', sm: 'flex' },
                   flexDirection: 'column',
                   gap: 1,
                 }}
@@ -125,36 +117,17 @@ export default function Footer() {
                 <Link color="text.secondary" href="#">
                   About us
                 </Link>
+              
                 <Link color="text.secondary" href="#">
-                  Careers
+                  Terms&Conditions
                 </Link>
+
                 <Link color="text.secondary" href="#">
-                  Our Mission
+                  Contact Us
                 </Link>
-                <Link color="text.secondary" href="#">
-                  Press
-                </Link>
+
               </Box>
-              <Box
-                sx={{
-                  display: { xs: 'none', sm: 'flex' },
-                  flexDirection: 'column',
-                  gap: 1,
-                }}
-              >
-                <Typography variant="body2" fontWeight={600}>
-                  Legal
-                </Typography>
-                <Link color="text.secondary" href="#">
-                  Terms
-                </Link>
-                <Link color="text.secondary" href="#">
-                  Privacy
-                </Link>
-                <Link color="text.secondary" href="#">
-                  Contact
-                </Link>
-              </Box>
+
             </Box>
           </Box>
         </Box>
@@ -204,33 +177,10 @@ export default function Footer() {
           </Stack>
         </Box>
       </Box>
-      <Box width="100%" display="flex" justifyContent="center" mt={{ xl: '6%', lg: '6%', xm: '5%', sm: '5%' }}>
-        <Box textAlign="center" display='flex' alignItems='center' flexWrap='wrap' width={{ xl: '60%', lg: '100%', xm: '98%', sm: '98%' }}>
+      <Box width="100%" display="flex" justifyContent="center" mt={{ xl: '6%', lg: '10%', xm: '5%', sm: '5%' }}>
+        <Box textAlign="center" display='flex' alignItems='center' flexWrap='wrap'>
           <Copyright />
-          <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
-            &nbsp;•&nbsp;
-          </Typography>
-          <Link color="text.secondary" href="#">
-            Visionary Partners
-          </Link>
-          <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
-            &nbsp;•&nbsp;
-          </Typography>
-          <Link style={{ marginLeft: '8px' }} color="text.secondary" href="#">
-            Privacy Policy
-          </Link>
-          <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
-            &nbsp;•&nbsp;
-          </Typography>
-          <Link style={{ marginLeft: '8px' }} color="text.secondary" href="#">
-            Contact
-          </Link>
-          <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
-            &nbsp;•&nbsp;
-          </Typography>
-          <Link style={{ marginLeft: '8px' }} color="text.secondary" href="#">
-            Legal notice
-          </Link>
+        
         </Box>
       </Box>
     </Box>

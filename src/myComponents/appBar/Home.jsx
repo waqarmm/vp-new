@@ -1,7 +1,7 @@
 import React from "react";
 
 import Footer from "../footer";
-import FAQ from "../FAQ";
+// import FAQ from "../FAQ";
 import AnnouncementBar from "../Annoucement-bar/AnnouncementBar";
 import Catlog from "../Catalogs/Catlog";
 import HotProducts from "../HotProducts/HotProducts";
@@ -22,7 +22,7 @@ const Home = () => {
         <HotProducts />
         <Whyvp />
         <Visit/>
-        <FAQ />
+        {/* <FAQ /> */}
       </div>
         <Footer />
     </div>

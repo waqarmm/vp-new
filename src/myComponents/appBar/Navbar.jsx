@@ -100,8 +100,8 @@ const Navbar = () => {
             <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
               {!searchOpen && (
                 <img
-                    // className=""
-                  style={{ width:"15%" , height:"15%" }}
+                className="img"
+                  // style={{ width:{lg:'15%',sm:'20%'} , height:{lg:'15%',sm:'20%'} }}
                   src={logoImg}
                   alt="Logo"
                 />
@@ -384,38 +384,7 @@ const Navbar = () => {
           >
             <ListItemText className="av" primary="Contact Us" />
           </ListItem>
-          <ListItem
-            button
-            component={Link}
-            to="/contact-us"
-            onClick={handleDrawerClose}
-          >
-            <ListItemText className="av" primary="Help" />
-          </ListItem>
-          <ListItem
-            button
-            component={Link}
-            to="/contact-us"
-            onClick={handleDrawerClose}
-          >
-            <ListItemText className="av" primary="Blogs" />
-          </ListItem>
-          <ListItem
-            button
-            component={Link}
-            to="/contact-us"
-            onClick={handleDrawerClose}
-          >
-            <ListItemText className="av" primary="Message" />
-          </ListItem>
-          <ListItem
-            button
-            component={Link}
-            to="/contact-us"
-            onClick={handleDrawerClose}
-          >
-            <ListItemText className="av" primary="Yahoo" />
-          </ListItem>
+          
         </List>
       </Drawer>
     </>
