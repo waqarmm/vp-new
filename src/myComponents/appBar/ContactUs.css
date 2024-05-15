@@ -14,7 +14,17 @@
 
 
 }
+.div{
+  margin-top: 10%;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.div1{
+  width: 80%;
 
+}
 
 
 
@@ -49,8 +59,51 @@ p {
     width: 100%;
     height: 100vh;
   }
+  
   .aaa{
     height: 100vh;
   }
   
+}
+@media only screen and (max-width: 660px) {
+  .div{
+    margin-top: 80%;
+   
+  }
+}
+@media only screen and (max-width: 625px) {
+  .div{
+    margin-top: 90%;
+   
+  }
+}
+@media only screen and (max-width: 550px) {
+  .div{
+    margin-top:100%;
+   
+  }
+}
+@media only screen and (max-width: 502px) {
+  .div{
+    margin-top: 110%;
+   
+  }
+}
+@media only screen and (max-width: 502px) {
+  .div{
+    margin-top: 120%;
+   
+  }
+}
+@media only screen and (max-width: 435px) {
+  .div{
+    margin-top: 130%;
+   
+  }
+}
+@media only screen and (max-width: 395px) {
+  .div{
+    margin-top: 140%;
+   
+  }
 }

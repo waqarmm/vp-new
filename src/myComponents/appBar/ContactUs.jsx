@@ -6,6 +6,7 @@ import "../appBar/ContactUs.css";
 import Footer from "../footer";
 import FAQ from "../FAQ";
 import AnnouncementBar from "../Annoucement-bar/AnnouncementBar";
+import RegisterForm from "../form/RegisterForm";
 
 const ContactUs = () => {
   return (
@@ -84,6 +85,12 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+     <div className="div">
+      <div className="div1">
+      <RegisterForm/>
+      </div>
+     
+     </div>
       <FAQ />
       <div className="aaa"></div>
       <Footer />
