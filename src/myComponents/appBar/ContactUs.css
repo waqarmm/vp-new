@@ -99,11 +99,29 @@ p {
   .div{
     margin-top: 130%;
    
-  }
+  }}
+  @media only screen and (max-width: 430px) {
+    .div{
+      margin-top: 70%;
+     
+    }}
+
+
+  @media only screen and (max-width: 414px) {
+    .div{
+      margin-top: 80%;
+     
+    }
 }
 @media only screen and (max-width: 395px) {
   .div{
-    margin-top: 140%;
+    margin-top: 105%;
+   
+  }
+}
+@media only screen and (max-width: 360px) {
+  .div{
+    margin-top: 130%;
    
   }
 }
