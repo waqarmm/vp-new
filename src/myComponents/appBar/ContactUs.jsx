@@ -84,7 +84,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      {/* <FAQ /> */}
+      <FAQ />
       <div className="aaa"></div>
       <Footer />
     </>

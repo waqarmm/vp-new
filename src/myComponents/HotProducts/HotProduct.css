@@ -10,7 +10,7 @@
     grid-auto-rows: auto;
     gap: 20px;
     margin: 0 auto;
-    grid-row-gap: 0px;
+    grid-row-gap: 10px;
   } 
   .hot-products-heading {
     height: 10vh;

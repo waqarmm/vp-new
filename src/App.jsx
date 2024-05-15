@@ -24,13 +24,14 @@ import InstallationGuide from './myComponents/appBar/InstallationGuide';
 import Products from './myComponents/appBar/Products';
 import ContactUs from './myComponents/appBar/ContactUs';
 import Slider from './myComponents/Slider-details/Slider';
+ 
 
 
 const App = () => {
   return (
     <>
     <Router>
-      <div>
+      <div> 
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -57,6 +58,7 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/AboutUs" element={<AboutUs/>} />
           <Route path="/contact-us" element={<ContactUs />} />
+ 
         </Routes>
       </div>
     </Router>

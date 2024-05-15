@@ -10,7 +10,15 @@ import proimgsix from "../HotProducts/assets/productimagesix.png";
 import proimgseven from "../HotProducts/assets/productimageseven.webp";
 import proimgeight from "../HotProducts/assets/productimageeight.webp";
 import proimgnine from "../HotProducts/assets/productimagenine.webp";
+
+
+
+
 function HotProducts() {
+
+
+   
+
   return (
     <div className="hot-products">
       <div className="hot-products-heading">
@@ -52,7 +60,8 @@ function HotProducts() {
         <ProductCard
           productimage={proimgnine}
           productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
-        />
+        /> 
+       
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import aboutone from "../appBar/AboutAssests/aboutone.jpg";
 import abouttwo from "../appBar/AboutAssests/abouttwo.jpg";
 import aboutthree from "../appBar/AboutAssests/aboutthree.jpg";
 import aboutfour from "../appBar/AboutAssests/aboutfour.jpeg";
-import FAQ from "../FAQ";
+// import FAQ from "../FAQ";
 
 function AboutUs() {
   return (
@@ -89,7 +89,7 @@ function AboutUs() {
           </div> 
         </div>
       </div>
-      <FAQ />
+      {/* <FAQ /> */}
       <Footer />
     </>
   );

@@ -20,19 +20,19 @@ const Cards = () => {
             {/* Card 1 */}
             <div className="first-card" onClick={handleClick}>
               <img src={ImgTwo} alt="Image 1" />
-              <p> PVC Marble Sheets →</p>
+              <p> PVC Marble Sheets</p>
             </div>
             <div className="cards-right">
               {/* Card 2 */}
               <div className="card-two" onClick={handleClick}>
                 <img src={ImgThree} alt="Image 2" />
-                <p>PVC Wall  Panels  for  Every   Vision  →</p>
+                <p>PVC Wall  Panels  for  Every   Vision </p>
               </div>
 
               {/* Card 3 */}
               <div className="card-three" onClick={handleClick}>
                 <img src={ImgOne} alt="Image 3" />
-                <p>PVC Flooring, Where Comfort Meets Durability →</p>
+                <p>PVC Flooring, Where Comfort Meets Durability </p>
               </div>
  
             </div>

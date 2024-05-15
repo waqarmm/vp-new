@@ -95,10 +95,7 @@ export default function Footer() {
                 </Link>
                 <Link color="text.secondary" href="#">
                   Shipping and return
-                </Link>
-                <Link color="text.secondary" href="#">
-                  Features
-                </Link>
+                </Link> 
 
                 <Link color="text.secondary" href="#">
                   FAQs
@@ -160,7 +157,7 @@ export default function Footer() {
             </Button>
           </Stack>
         </Box>
-        <Box sx={{ width: { lg: '25%', xs: '100%', sm: 'auto' }, display: "flex", alignItems: { lg: "flex-end", md: "flex-end", xs: 'center', sm: 'center' }, textAlign: 'center', mt: { xs: 4, sm: 2 }, ml: { xs: 2, sm: 'auto' } }}>
+        {/* <Box sx={{ width: { lg: '25%', xs: '100%', sm: 'auto' }, display: "flex", alignItems: { lg: "flex-end", md: "flex-end", xs: 'center', sm: 'center' }, textAlign: 'center', mt: { xs: 4, sm: 2 }, ml: { xs: 2, sm: 'auto' } }}>
           <Stack alignItems="center" display='flex' justifyContent='space-between' flexDirection='row' gap="5" sx={{ color: 'text.secondary' }}>
             <IconButton color="inherit" href="https://facebook.com" aria-label="Facebook">
               <FacebookIcon />
@@ -175,7 +172,7 @@ export default function Footer() {
               <InstagramIcon />
             </IconButton>
           </Stack>
-        </Box>
+        </Box> */}
       </Box>
       <Box width="100%" display="flex" justifyContent="center" mt={{ xl: '6%', lg: '10%', xm: '5%', sm: '5%' }}>
         <Box textAlign="center" display='flex' alignItems='center' flexWrap='wrap'>

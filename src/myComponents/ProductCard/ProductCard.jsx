@@ -1,8 +1,10 @@
 import "../ProductCard/ProductCard.css";
 // import productimage from "../ProductCard/assets/proimg.png";
 import React from "react";
+ 
 
-const ProductCard = (props) => {
+const ProductCard = (props) => { 
+
   return (
     <div className="product-card">
       <div className="pro-card-img">
@@ -15,7 +17,12 @@ const ProductCard = (props) => {
         </p>
       </div>
     </div>
+
+     
   );
 };
 
 export default ProductCard;
+
+ 
+
