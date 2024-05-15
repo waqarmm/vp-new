@@ -234,6 +234,7 @@
 @media only screen and (max-width: 500px) {
   .fixed-text {
     height: auto;
+    width: 90%;
   }
   .cards-right2 {
     display: block;

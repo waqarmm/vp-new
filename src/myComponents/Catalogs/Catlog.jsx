@@ -1,13 +1,15 @@
 import React from "react";
 import "../Catalogs/Catlog.css";
+import { useNavigate } from "react-router-dom";
 import ImgOne from "../Catalogs/assets/PVCFloor.jpg";
 import ImgTwo from "../Catalogs/assets/PVCMarble.jpg";
 import ImgThree from "../Catalogs/assets/PVCWall.jpg";
 
 const Cards = () => {
+  const navigate = useNavigate();
   const handleClick = () => {
     // Redirect to the next page when the card is clicked
-    window.location.href = "/slider";
+    navigate ("/slider");
   };
 
   return ( 

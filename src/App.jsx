@@ -59,20 +59,11 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/AboutUs" element={<AboutUs/>} />
           <Route path="/contact-us" element={<ContactUs />} />
- 
+          <Route path="/slider" element={<Slider/>} />
         </Routes>
       </div>
     </Router>
-    <Router>
-    <Routes>
-
-      
-        {/* <Route path="/" exact component={Cards} /> Route for Cards component */}
-        <Route path="/slider" element={<Slider/>} /> {/* Route for Slider component */}
-    </Routes>
-      
-    
-    </Router>
+   
     </>
   );
 };
