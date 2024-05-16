@@ -20,11 +20,11 @@ const Footer = () => {
       <Container maxWidth="lg">
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <img src={logoImg} alt="Company Logo" style={{ width: '150px', marginRight: '-41px',marginBottom:"33px" }} />
+            <img src={logoImg} alt="Company Logo" style={{ width: '150px', marginRight: '-49px',marginBottom:"53px" }} />
             <div>
-              <Typography style={{fontSize:"22px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="body1" gutterBottom>
+              {/* <Typography style={{fontSize:"22px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="body1" gutterBottom>
                 Visionary Partners
-              </Typography>
+              </Typography> */}
               <Typography style={{fontSize:"17px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="body2" gutterBottom>
               Your Premium Partner in PVC Products
               </Typography>
