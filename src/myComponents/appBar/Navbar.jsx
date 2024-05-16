@@ -3,6 +3,8 @@ import { AppBar, Toolbar, IconButton, Typography, Box, Drawer, List, ListItem, L
 import { Menu as MenuIcon, ArrowDropDown as ArrowDropDownIcon, ArrowRight as ArrowRightIcon, Close as CloseIcon } from "@mui/icons-material";
 import logoImg from "../appBar/assets/logo.png";
 import WhatsApp from "../appBar/assets/whatsapp.png";
+import WhatsApp1 from "../appBar/assets/WhatsApp-PNG-Image.png";
+
 import { Link } from "react-router-dom";
 import "../appBar/Navbar.css"
 
@@ -71,7 +73,7 @@ const Navbar = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img style={{width:"40px" ,height:"40px"}} src={WhatsApp} alt="WhatsApp" />
+                        <img style={{width:"40px" ,height:"35px"}} src={WhatsApp1} alt="WhatsApp" />
                     </IconButton>
                 </Toolbar>
             </AppBar>
