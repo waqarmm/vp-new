@@ -11,6 +11,8 @@ import Visit from "../VisitOurShowroom/visit";
 
 
 
+
+
 const Home = () => {
   return (
     <div>
@@ -23,6 +25,13 @@ const Home = () => {
         <Visit />
         {/* <FAQ /> */}
       </div>
+      {/* <div>
+          <a href="https://wa.me/923555072977?text=hey! how can i help you?" target="blank">
+            <img src={WhatsApp} alt="xcv" />
+          </a>
+        </div> */}
+
+
       <Footer />
  
     </div>

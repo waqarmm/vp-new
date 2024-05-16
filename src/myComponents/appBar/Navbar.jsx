@@ -1,189 +1,98 @@
 import React, { useState } from "react";
-import { OutlinedInput } from "@mui/material";
-import InputAdornment from "@mui/material/InputAdornment";
-import "../appBar/Navbar.css";
-
-import { Link } from "react-router-dom";
-import {
-  AppBar,
-  Toolbar,
-  IconButton,
-  Typography,
-  Box,
-  Drawer,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemIcon,
-  Collapse,
-} from "@mui/material";
-import {
-  Menu as MenuIcon,
-  Search as SearchIcon,
-  ArrowDropDown as ArrowDropDownIcon,
-  ArrowRight as ArrowRightIcon,
-  Close as CloseIcon,
-} from "@mui/icons-material";
+import { AppBar, Toolbar, IconButton, Typography, Box, Drawer, List, ListItem, ListItemText, ListItemIcon, Collapse } from "@mui/material";
+import { Menu as MenuIcon, ArrowDropDown as ArrowDropDownIcon, ArrowRight as ArrowRightIcon, Close as CloseIcon } from "@mui/icons-material";
 import logoImg from "../appBar/assets/logo.png";
+import WhatsApp from "../appBar/assets/whatsapp.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  const [searchOpen, setSearchOpen] = useState(false);
-  const [searchText, setSearchText] = useState("");
-  const [openSubItems, setOpenSubItems] = useState({});
+    const [drawerOpen, setDrawerOpen] = useState(false);
+    const [openSubItems, setOpenSubItems] = useState({});
 
-  const handleDrawerOpen = () => {
-    setDrawerOpen(true);
-  };
+    const handleDrawerOpen = () => {
+        setDrawerOpen(true);
+    };
 
-  const handleDrawerClose = () => {
-    setDrawerOpen(false);
-  };
+    const handleDrawerClose = () => {
+        setDrawerOpen(false);
+    };
 
-  const handleSearchToggle = () => {
-    setSearchOpen(!searchOpen);
-    // If search is being closed, show the main items (hamburger, logo, search icon)
-    if (searchOpen) {
-      setDrawerOpen(false);
-    }
-  };
+    const handleSubItemClick = (index) => {
+        setOpenSubItems((prevState) => ({
+            ...prevState,
+            [index]: !prevState[index],
+        }));
+    };
 
-  const handleInputChange = (event) => {
-    setSearchText(event.target.value);
-  };
+    const appBarStyles = {
+        width: "100%",
+        height: "13.2vh",
+        position: drawerOpen ? "sticky " : "static",
+        top: drawerOpen ? "0" : "unset",
+        zIndex: 2,
+        backgroundColor: "#f5f5f5",
+        borderBottom: "1px solid Grey",
+    };
 
-  const handleClearSearchText = () => {
-    setSearchText("");
-  };
+    return (
+        <>
+            <AppBar position="static" style={appBarStyles}>
+                <Toolbar>
+                    <IconButton
+                        style={{ marginRight: 10 }}
+                        color="black"
+                        aria-label="menu"
+                        onClick={drawerOpen ? handleDrawerClose : handleDrawerOpen}
+                    >
+                        {drawerOpen ? <CloseIcon /> : <MenuIcon />}
+                    </IconButton>
 
-  const handleSubItemClick = (index) => {
-    setOpenSubItems((prevState) => ({
-      ...prevState,
-      [index]: !prevState[index],
-    }));
-  };
-
-  const appBarStyles = {
-    width: "100%",
-    height: "13.2vh",
-    position: drawerOpen ? "sticky " : "static",
-    top: drawerOpen ? "0" : "unset",
-    zIndex: 2,
-    backgroundColor: "#f5f5f5",
-    borderBottom: "1px solid Grey",
-  };
-
-  return (
-    <>
-      <AppBar position="static" style={appBarStyles}>
-        <Toolbar>
-          {!searchOpen && (
-            <IconButton
-              style={{ marginRight: 10 }}
-              color="black"
-              aria-label="menu"
-              onClick={drawerOpen ? handleDrawerClose : handleDrawerOpen}
+                    <Typography
+                        variant="h6"
+                        component="div"
+                        sx={{
+                            flexGrow: 4,
+                            alignItems: "center",
+                            textAlign: "center",
+                        }}
+                    >
+                        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+                            <img className="img" src={logoImg} alt="Logo" />
+                        </Link>
+                    </Typography>
+                    {/* WhatsApp Chat */}
+                    <IconButton
+                        style={{ marginRight: 10  }}
+                        
+                        color="black"
+                        aria-label="whatsapp"
+                        href="https://wa.me/923555072977?text=hey!"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img style={{width:"40px" ,height:"40px"}} src={WhatsApp} alt="WhatsApp" />
+                    </IconButton>
+                </Toolbar>
+            </AppBar>
+            {/* Rest of your Drawer content */}
+            <Drawer
+                anchor="left"
+                open={drawerOpen}
+                onClose={handleDrawerClose}
+                PaperProps={{
+                    sx: {
+                        marginTop: { xl: '6.8', lg: "5.7%", md: '7%', xs: "16.8%", sm: "9.5%" },
+                        zIndex: "0",
+                        position: "fixed",
+                        boxShadow: "none",
+                        width: { xl: "28%", lg: "30%", xs: "100%", sm: "55%" },
+                        height: "99%",
+                        backgroundColor: "white",
+                    },
+                }}
+                sx={{ flexShrink: 0, width: "25%", zIndex: "1" }}
             >
-              {drawerOpen ? <CloseIcon /> : <MenuIcon />}
-            </IconButton>
-          )}
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{
-              flexGrow: 4,
-              alignItems: "center",
-              textAlign: "center",
-              color: searchOpen ? "transparent" : "inherit",
-            }}
-          >
-            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-              {!searchOpen && (
-                <img
-                className="img"
-                  // style={{ width:{lg:'15%',sm:'20%'} , height:{lg:'15%',sm:'20%'} }}
-                  src={logoImg}
-                  alt="Logo"
-                />
-              )}
-            </Link>
-          </Typography>
-          {!searchOpen && (
-            <IconButton
-              style={{ marginRight: 10 }}
-              color="black"
-              aria-label="search"
-              onClick={handleSearchToggle}
-            >
-              <SearchIcon />
-            </IconButton>
-          )}
-          {/* Close Icon for Search Input */}
-          {searchOpen && (
-            <IconButton
-              style={{ marginLeft: "auto" }}
-              color="black"
-              aria-label="close-search"
-              onClick={handleSearchToggle}
-            >
-              <CloseIcon />
-            </IconButton>
-          )}
-        </Toolbar>
-        {/* Box for Search Input */}
-        <Box
-          sx={{
-            position: "absolute",
-            left: "70%",
-            transform: "translateX(-50%)",
-            width:'80%',
-            top: "5%",
-            display: searchOpen ? "flex" : "none",
-            alignItems: "center",
-          }}
-        >
-          <OutlinedInput
-            sx={{ width: "45%", height: 32, borderRadius: "10px" }}
-            placeholder="Search"
-            value={searchText}
-            onChange={handleInputChange}
-            startAdornment={
-              <InputAdornment position="start">
-                <SearchIcon />
-              </InputAdornment>
-            }
-            endAdornment={
-              <InputAdornment position="end">
-                <IconButton onClick={handleClearSearchText}>
-                  <CloseIcon />
-                </IconButton>
-              </InputAdornment>
-            }
-            inputProps={{ "aria-label": "search" }}
-            label="Search"
-          />
-        </Box>
-      </AppBar>
-      {/* Rest of your Drawer content */}
-    <Drawer
-        anchor="left"
-        open={drawerOpen}
-        onClose={handleDrawerClose}
-        PaperProps={{
-          sx: {
-            marginTop: {xl:'6.8', lg: "5.7%",md:'7%', xs: "16.8%", sm: "9.5%" },
-            zIndex: "0",
-            position: "fixed",
-            boxShadow: "none",
-            width: { xl: "28%", lg: "30%", xs: "100%", sm: "55%" },
-            height: "99%",
-            backgroundColor: "white",
-          },
-        }}
-        sx={{ flexShrink: 0, width: "25%", zIndex: "1" }}
-        // ModalProps={{ disableScrollLock: true }}
-      >
-        <List className="list">
+                  <List className="list">
           <ListItem button component={Link} to="/" onClick={handleDrawerClose}>
             <ListItemText className="av" primary="Home page" />
           </ListItem>
