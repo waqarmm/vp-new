@@ -4,6 +4,7 @@ import { Menu as MenuIcon, ArrowDropDown as ArrowDropDownIcon, ArrowRight as Arr
 import logoImg from "../appBar/assets/logo.png";
 import WhatsApp from "../appBar/assets/whatsapp.png";
 import { Link } from "react-router-dom";
+import "../appBar/Navbar.css"
 
 const Navbar = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
