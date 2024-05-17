@@ -69,7 +69,7 @@ const Navbar = () => {
                         
                         color="black"
                         aria-label="whatsapp"
-                        href="https://wa.me/923555072977?text=hey!"
+                        href="https://wa.me/00971508194493?text=hey!"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -99,10 +99,10 @@ const Navbar = () => {
           <ListItem button component={Link} to="/" onClick={handleDrawerClose}>
             <ListItemText className="av" primary="Home page" />
           </ListItem>
-          <ListItem button onClick={() => handleSubItemClick("indoorProducts")}>
-            <ListItemText className="av" primary="Indoor Products" />
+          <ListItem button onClick={() => handleSubItemClick("Products")}>
+            <ListItemText className="av" primary="Products" />
             <ListItemIcon>
-              {openSubItems["indoorProducts"] ? (
+              {openSubItems["Products"] ? (
                 <ArrowDropDownIcon />
               ) : (
                 <ArrowRightIcon />
@@ -110,7 +110,7 @@ const Navbar = () => {
             </ListItemIcon>
           </ListItem>
           <Collapse
-            in={openSubItems["indoorProducts"]}
+            in={openSubItems["Products"]}
             timeout="auto"
             unmountOnExit
           >
@@ -118,7 +118,7 @@ const Navbar = () => {
               <ListItem
                 button
                 component={Link}
-                to="/indoor-products/wpc-wall-panel"
+                to="WPC-WallPanels"
                 onClick={handleDrawerClose}
               >
                 <ListItemText className="av" primary="WPC Wall Panel" />
@@ -126,160 +126,33 @@ const Navbar = () => {
               <ListItem
                 button
                 component={Link}
-                to="/indoor-products/wpc-flat-panel"
+                to="WPC-Flooring"
                 onClick={handleDrawerClose}
               >
-                <ListItemText className="av" primary="WPC Flat Panel" />
+                <ListItemText className="av" primary="WPC Floor Panel" />
               </ListItem>
               <ListItem
                 button
                 component={Link}
-                to="/indoor-products/wpctimber-tube"
+                to="/Marble-Sheets"
                 onClick={handleDrawerClose}
               >
-                <ListItemText className="av" primary="WPC Timber Tube" />
+                <ListItemText className="av" primary="WPC Marble Sheet" />
               </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/indoor-products/wpc-ceiling"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText className="av" primary="WPC Ceiling" />
-              </ListItem>
+              
             </List>
           </Collapse>
-          <ListItem button onClick={() => handleSubItemClick("marbleSheet")}>
-            <ListItemText className="av" primary="Marble Sheet" />
-            <ListItemIcon>
-              {openSubItems["marbleSheet"] ? (
-                <ArrowDropDownIcon />
-              ) : (
-                <ArrowRightIcon />
-              )}
-            </ListItemIcon>
-          </ListItem>
-          <Collapse
-            in={openSubItems["marbleSheet"]}
-            timeout="auto"
-            unmountOnExit
-          >
-            <List sx={{ pl: 3 }}>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/thermal-transfer-printing"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText
-                  className="av"
-                  primary="Thermal Transfer Printing"
-                />
-              </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/embossed"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText primary="Embossed" />
-              </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/pvc-film"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText className="av" primary="PVC Film" />
-              </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/3d-print"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText className="av" primary="3D Print" />
-              </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/3d-print-open-book"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText className="av" primary="3D Print (Open Book)" />
-              </ListItem>
-            </List>
-          </Collapse>
-          <ListItem button onClick={() => handleSubItemClick("marbleSheet")}>
-            <ListItemText className="av" primary="Marble Sheet" />
-            <ListItemIcon>
-              {openSubItems["SPC Flooring"] ? (
-                <ArrowDropDownIcon />
-              ) : (
-                <ArrowRightIcon />
-              )}
-            </ListItemIcon>
-          </ListItem>
-          <Collapse
-            in={openSubItems["SPC Flooring"]}
-            timeout="auto"
-            unmountOnExit
-          >
-            <List sx={{ pl: 3 }}>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/thermal-transfer-printing"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText
-                  className="av"
-                  primary="Thermal Transfer Printing"
-                />
-              </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/embossed"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText className="av" primary="Embossed" />
-              </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/pvc-film"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText className="av" primary="PVC Film" />
-              </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/3d-print"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText primary="3D Print" />
-              </ListItem>
-              <ListItem
-                button
-                component={Link}
-                to="/marble-sheet/3d-print-open-book"
-                onClick={handleDrawerClose}
-              >
-                <ListItemText className="av" primary="3D Print (Open Book)" />
-              </ListItem>
-            </List>
-          </Collapse>
+         
+          
           {/* Add more similar ListItem and Collapse components for other menu items */}
-          <ListItem
+          {/* <ListItem
             button
             component={Link}
             to="/products"
             onClick={handleDrawerClose}
           >
             <ListItemText className="av" primary="Products" />
-          </ListItem>
+          </ListItem> */}
           <ListItem
             button
             component={Link}

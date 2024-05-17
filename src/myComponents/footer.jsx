@@ -19,14 +19,21 @@ const Footer = () => {
     <Box component="footer" sx={{ bgcolor: '#f5f5f5', color: '#333', py: 6 }}>
       <Container maxWidth="lg">
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' }}>
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <img src={logoImg} alt="Company Logo" style={{ width: '150px', marginRight: '-49px',marginBottom:"53px" }} />
+          <Box sx={{ display: 'flex',flexDirection:'column', alignItems: 'center' }}>
+            <img src={logoImg} alt="Company Logo" style={{ width: '150px', marginRight: '30px',marginBottom:"1px" }} />
             <div>
-              {/* <Typography style={{fontSize:"22px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="body1" gutterBottom>
-                Visionary Partners
-              </Typography> */}
+              
               <Typography style={{fontSize:"17px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="body2" gutterBottom>
               Your Premium Partner in PVC Products
+              </Typography>
+              <Typography style={{fontSize:"17px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="body1" gutterBottom>
+               Number: +971-50-819-4493
+              </Typography>
+              <Typography style={{fontSize:"17px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="body1" gutterBottom>
+              Email: visionarypartnersUAE.com
+              </Typography>
+              <Typography style={{fontSize:"17px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="body1" gutterBottom>
+              info@visionarypartnersUAE.com
               </Typography>
             </div>
           </Box>
@@ -34,8 +41,8 @@ const Footer = () => {
             <Typography style={{fontSize:"20px",fontFamily:"sans-serif",fontStretch:"ultra-condensed"}} variant="h6" gutterBottom>
               COMPANY
             </Typography>
-            <Stack spacing={1} mt={2}>
-              <Link href="#" color="inherit">Home</Link>
+            <Stack spacing={2} mt={2}>
+              <Link href="/" color="inherit">Home</Link>
               <Link href="#" color="inherit">About Us</Link>
               <Link href="#" color="inherit">Services</Link>
               <Link href="#" color="inherit">Contact</Link>

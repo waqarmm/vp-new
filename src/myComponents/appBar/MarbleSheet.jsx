@@ -1,8 +1,13 @@
+
 import React from 'react'
+import Slider from '../Slider-details/Slider'
 
 const MarbleSheet = () => {
   return (
-    <div>MarbleSheet</div>
+    <div>
+    <Slider/>
+
+    </div>
   )
 }
 

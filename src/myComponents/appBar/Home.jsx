@@ -5,8 +5,8 @@ import Footer from "../footer";
 import AnnouncementBar from "../Annoucement-bar/AnnouncementBar";
 import Catlog from "../Catalogs/Catlog";
 import HotProducts from "../HotProducts/HotProducts";
-import Whyvp from "../WhyVp/WhyVp";
-import Visit from "../VisitOurShowroom/visit";
+import Whyvp from "../WhyVp/WhyVp"; 
+import WarehouseHome from "../WareHouseHome/WareHouseHome";
 // import Slider from "../Slider-details/Slider";
 
 
@@ -21,8 +21,7 @@ const Home = () => {
         <Catlog />
         {/* <Slider/> */}
         <HotProducts />
-        <Whyvp />
-        <Visit />
+        <Whyvp /> 
         {/* <FAQ /> */}
       </div>
       {/* <div>
@@ -31,7 +30,7 @@ const Home = () => {
           </a>
         </div> */}
 
-
+            <WarehouseHome/>
       <Footer />
  
     </div>

@@ -11,6 +11,14 @@ const Cards = () => {
     // Redirect to the next page when the card is clicked
     navigate ("/slider");
   };
+  const handleClicked = () => {
+    // Redirect to the next page when the card is clicked
+    navigate ("/WPC-Flooring");
+  };
+  const handleClickes = () => {
+    // Redirect to the next page when the card is clicked
+    navigate ("/WPC-WallPanels");
+  };
 
   return ( 
       <div className="catlog-container">
@@ -26,13 +34,13 @@ const Cards = () => {
             </div>
             <div className="cards-right">
               {/* Card 2 */}
-              <div className="card-two" onClick={handleClick}>
+              <div className="card-two" onClick={handleClickes}>
                 <img src={ImgThree} alt="Image 2" />
                 <p>PVC Wall  Panels  for  Every   Vision </p>
               </div>
 
               {/* Card 3 */}
-              <div className="card-three" onClick={handleClick}>
+              <div className="card-three" onClick={handleClicked}>
                 <img src={ImgOne} alt="Image 3" />
                 <p>PVC Flooring, Where Comfort Meets Durability </p>
               </div>

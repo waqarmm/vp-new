@@ -1,0 +1,83 @@
+.warehouse-home-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;  
+    background-image: url('../appBar/assets/ware.png');  
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+  }
+  .warehouse-home-content h1{
+    font-size: 55px;
+  }
+  .warehouse-home-content p{
+    font-size: 25px;
+    color: white;
+  }
+  .highlight{
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgba(255, 251, 0, 0.87);
+  }
+  
+  .warehouse-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .warehouse-home-content {
+    color: white; 
+    text-align: center;
+    z-index: 2;  
+    font-family: sans-serif;
+    font-stretch: condensed;
+  }
+  
+  .warehouse-home-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);  
+    z-index: 1; 
+    opacity: 0.8;  
+  }
+
+  .warehouse-home-content button {
+    padding: 16px 50px; 
+    margin-top: 20px;
+    border: 1px solid #ffffff; 
+    background-color: transparent;  
+    color: #ffffff;  
+    font-size: 18px;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 6px;
+    
+  }
+  
+  .warehouse-home-content button:hover {
+    background-color: yellow;  
+    color: #000000;  
+  }
+
+
+  @media screen and (max-width: 750px){
+    .warehouse-home-content h1{
+      width: 90%;
+      font-size: 45px;
+      margin: 0 auto; 
+    }
+    .highlight{
+      font-size: 28px;
+    }
+  }
