@@ -230,7 +230,7 @@
     .card3-text,
     .card1-text {
       line-height: normal;
-      width: 100%;
+      width: 90%;
     }
     .gallery1-text,
     .gallery2-text { 
@@ -273,4 +273,21 @@
       .visit-showroom-img{
         height: 35vh;
       }
+}
+
+@media screen and (max-width:400px){
+.warehouse-banner-text h1{
+    font-size:22px;
+}.warehouse-banner-text p {  
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .gallery-section-head h1{
+    font-size: 22px;
+  }
+  .gallery-section-head p{
+    font-size: 14px;
+    width: 95%;
+  }
 }
