@@ -60,7 +60,7 @@
 }
 .gallery-section {
   width: 80%;
-  height: 130vh; 
+  height: 130vh;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -68,46 +68,44 @@
 .gallery1,
 .gallery2 {
   width: 49%;
-  height: 95%; 
+  height: 95%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .gallery1-images,
 .gallery2-images {
   width: 100%;
-  height: 50%; 
+  height: 50%;
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;   
+  overflow: hidden;
 }
 .gallery1-text,
 .gallery2-text {
   width: 100%;
-  height: 50%; 
+  height: 50%;
   width: 80%;
   margin: 0 auto;
   line-height: 35px;
 }
-.gallery1-text h3{
-    margin: 20px 0 0 0;
+.gallery1-text h3 {
+  margin: 20px 0 0 0;
 }
-.gallery2-text h3{
-    margin: 20px 0 0 0;
+.gallery2-text h3 {
+  margin: 20px 0 0 0;
 }
 .gallery1-images img {
   width: 50%;
   height: 50%;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 .gallery1-images img:hover {
   transform: scale(1.2);
-  
-  
 }
 
 .gallery2-images img {
   width: 50%;
-  height: 50%; 
+  height: 50%;
   transition: transform 0.3s ease;
 }
 .gallery2-images img:hover {
@@ -115,9 +113,9 @@
 }
 
 .visit-showroom-sec h1 {
-    font-family: sans-serif;
-    font-stretch: ultra-condensed;
-    margin: 30px 0 10px 0px;
+  font-family: sans-serif;
+  font-stretch: ultra-condensed;
+  margin: 30px 0 10px 0px;
   text-align: center;
 }
 .visit-showroom-img {
@@ -130,7 +128,7 @@
 }
 .visit-showroom-cards {
   width: 80%;
-  height: 130vh;
+  height: 100vh;
   margin: 30px auto;
   display: flex;
   justify-content: space-between;
@@ -138,7 +136,7 @@
 .showroom-card1,
 .showroom-card2,
 .showroom-card3 {
-  width: 30%;
+  width: 33%;
   height: 95%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -169,4 +167,110 @@
 .card3-img img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .visit-showroom-cards {
+    height: 115vh;
+  }
+  .visit-showroom-img {
+    width: 100%;
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 970px) {
+  .card1-img,
+  .card2-img,
+  .card3-img {
+    height: 30%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .warehouse-banner-text h1 {
+    font-size: 45px;
+  }
+  .warehouse-banner-text p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+  }
+  .warehouse-banner {
+    height: 55vh;
+  }
+  .visit-showroom-img {
+    width: 100%;
+    height: 55vh;
+  }
+  .card1-img,
+  .card2-img,
+  .card3-img {
+    height: 25%;
+  }
+  .card2-text,
+  .card3-text,
+  .card1-text {
+    line-height: 20px;
+  }
+  .gallery1-text,
+  .gallery2-text {
+    height: 55%;
+    width: 85%;
+    line-height: 30px;
+  }
+  .gallery1-images,
+  .gallery2-images {
+    height: 45%;
+  }
+}
+@media screen and (max-width: 650px) {
+    .gallery1-images,
+    .gallery2-images {
+      height: 35%;
+    }.card2-text,
+    .card3-text,
+    .card1-text {
+      line-height: normal;
+      width: 100%;
+    }
+    .gallery1-text,
+    .gallery2-text { 
+      width: 90%; 
+    }
+}
+@media screen and (max-width:540px){
+    .gallery-section{
+        display: block;
+        height: auto;
+        
+    }
+    .gallery1,.gallery2{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .gallery2-text { 
+        line-height: normal;
+      }
+      .visit-showroom-cards{
+        display: block;
+        height: auto;
+      }
+      .showroom-card1,.showroom-card2,.showroom-card3{
+        width: 100%;
+        height: auto;
+      }.warehouse-banner-text h1 {
+        font-size: 30px;
+      }
+      .warehouse-banner-text p { 
+        width: 90%; 
+        line-height: normal;
+        letter-spacing: 1px;
+        font-size: 18px;
+      }
+      .warehouse-banner{
+        height:40vh ;
+      }
+      .visit-showroom-img{
+        height: 35vh;
+      }
 }
