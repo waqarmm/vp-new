@@ -1,0 +1,172 @@
+.warehouse-banner {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-image: url("../WarehousePage/assets/ware1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.warehouse-banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warehouse-banner-text {
+  color: white;
+  text-align: center;
+  z-index: 2;
+  font-family: sans-serif;
+  font-stretch: condensed;
+}
+.warehouse-banner-text h1 {
+  font-size: 55px;
+}
+.warehouse-banner-text p {
+  color: white;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 37px;
+  letter-spacing: 1px;
+  font-size: 23px;
+}
+
+.warehouse-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  opacity: 0.8;
+}
+
+/* gallery section  */
+.gallery-section-head {
+  width: 80%;
+  text-align: center;
+  margin: 40px auto;
+  font-family: sans-serif;
+  font-stretch: ultra-condensed;
+}
+.gallery-section {
+  width: 80%;
+  height: 130vh; 
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.gallery1,
+.gallery2 {
+  width: 49%;
+  height: 95%; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.gallery1-images,
+.gallery2-images {
+  width: 100%;
+  height: 50%; 
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;   
+}
+.gallery1-text,
+.gallery2-text {
+  width: 100%;
+  height: 50%; 
+  width: 80%;
+  margin: 0 auto;
+  line-height: 35px;
+}
+.gallery1-text h3{
+    margin: 20px 0 0 0;
+}
+.gallery2-text h3{
+    margin: 20px 0 0 0;
+}
+.gallery1-images img {
+  width: 50%;
+  height: 50%;
+  transition: transform 0.3s ease; 
+}
+.gallery1-images img:hover {
+  transform: scale(1.2);
+  
+  
+}
+
+.gallery2-images img {
+  width: 50%;
+  height: 50%; 
+  transition: transform 0.3s ease;
+}
+.gallery2-images img:hover {
+  transform: scale(1.2);
+}
+
+.visit-showroom-sec h1 {
+    font-family: sans-serif;
+    font-stretch: ultra-condensed;
+    margin: 30px 0 10px 0px;
+  text-align: center;
+}
+.visit-showroom-img {
+  width: 100%;
+  height: 75vh;
+}
+.visit-showroom-img img {
+  width: 100%;
+  height: 100%;
+}
+.visit-showroom-cards {
+  width: 80%;
+  height: 130vh;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.showroom-card1,
+.showroom-card2,
+.showroom-card3 {
+  width: 30%;
+  height: 95%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card2-text,
+.card3-text,
+.card1-text {
+  width: 80%;
+  margin: 30px auto;
+  line-height: 25px;
+  font-family: sans-serif;
+  font-stretch: ultra-condensed;
+}
+.card1-img,
+.card2-img,
+.card3-img {
+  width: 100%;
+  height: 40%;
+}
+.card1-img img {
+  width: 100%;
+  height: 100%;
+}
+.card2-img img {
+  width: 100%;
+  height: 100%;
+}
+.card3-img img {
+  width: 100%;
+  height: 100%;
+}

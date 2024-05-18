@@ -99,10 +99,10 @@ const Navbar = () => {
           <ListItem button component={Link} to="/" onClick={handleDrawerClose}>
             <ListItemText className="av" primary="Home page" />
           </ListItem>
-          <ListItem button onClick={() => handleSubItemClick("Products")}>
-            <ListItemText className="av" primary="Products" />
+          <ListItem button onClick={() => handleSubItemClick("Our Catlogs")}>
+            <ListItemText className="av" primary="Our Catlogs" />
             <ListItemIcon>
-              {openSubItems["Products"] ? (
+              {openSubItems["Our Catlogs"] ? (
                 <ArrowDropDownIcon />
               ) : (
                 <ArrowRightIcon />
@@ -110,7 +110,7 @@ const Navbar = () => {
             </ListItemIcon>
           </ListItem>
           <Collapse
-            in={openSubItems["Products"]}
+            in={openSubItems["Our Catlogs"]}
             timeout="auto"
             unmountOnExit
           >

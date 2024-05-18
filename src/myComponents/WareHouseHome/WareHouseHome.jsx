@@ -1,7 +1,17 @@
+ 
+
 import React from "react";
-import "../WareHouseHome/WareHouseHome.css";
+import "../WareHouseHome/WareHouseHome.css"; 
+import { useNavigate } from "react-router-dom";
 
 function WarehouseHome() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    // Redirect to the next page when the card is clicked
+    navigate("/warehouse-page"); 
+  };
+
   return (
     <div className="warehouse-home-container">
       <div className="warehouse-home">
@@ -12,7 +22,7 @@ function WarehouseHome() {
             <span className="highlight">FLOORING</span>, and{" "}
             <span className="highlight">MARBLE SHEET</span>.
           </p>
-          <button>View Details</button>
+          <button onClick={handleClick}>View Details</button>
         </div>
       </div>
     </div>

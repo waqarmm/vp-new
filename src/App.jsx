@@ -11,6 +11,7 @@ import WPCTimberTube from "./myComponents/appBar/WPCPanels";
 import AboutUs from "./myComponents/appBar/AboutUs";
 import ContactUs from "./myComponents/appBar/ContactUs";
 import Slider from "./myComponents/Slider-details/Slider";
+import WarehousePage from "./myComponents/WarehousePage/WarehousePage";
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/slider" element={<Slider />} />
+            <Route path="/warehouse-page" element={<WarehousePage/>}/>
           </Routes>
         </div>
       </Router>
