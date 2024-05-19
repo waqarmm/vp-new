@@ -1,5 +1,3 @@
- 
-
 import React from "react";
 import "../WareHouseHome/WareHouseHome.css"; 
 import { useNavigate } from "react-router-dom";
@@ -7,9 +5,12 @@ import { useNavigate } from "react-router-dom";
 function WarehouseHome() {
   const navigate = useNavigate();
 
-  const handleClick = () => {
-    // Redirect to the next page when the card is clicked
-    navigate("/warehouse-page"); 
+  const handleClick00 = () => {
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
+
+    // Redirect to the next page
+    navigate("/warehouse-page");
   };
 
   return (
@@ -22,7 +23,7 @@ function WarehouseHome() {
             <span className="highlight">FLOORING</span>, and{" "}
             <span className="highlight">MARBLE SHEET</span>.
           </p>
-          <button onClick={handleClick}>View Details</button>
+          <button onClick={handleClick00}>View Details</button>
         </div>
       </div>
     </div>
