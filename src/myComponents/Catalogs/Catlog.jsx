@@ -17,7 +17,7 @@ const Cards = () => {
   };
   const handleClickes = () => {
     // Redirect to the next page when the card is clicked
-    navigate ("/warehouse-page");
+    navigate ("/WPC-WallPanels");
   };
 
   return ( 

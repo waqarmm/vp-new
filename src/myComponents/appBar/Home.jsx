@@ -7,6 +7,7 @@ import Catlog from "../Catalogs/Catlog";
 import HotProducts from "../HotProducts/HotProducts";
 import Whyvp from "../WhyVp/WhyVp"; 
 import WarehouseHome from "../WareHouseHome/WareHouseHome";
+import Productpage from "../ProductsPages/Productpage";
 // import Slider from "../Slider-details/Slider";
 
 
@@ -31,7 +32,10 @@ const Home = () => {
         </div> */}
 
             <WarehouseHome/>
+      
       <Footer />
+      <Productpage/>
+      
  
     </div>
   );
