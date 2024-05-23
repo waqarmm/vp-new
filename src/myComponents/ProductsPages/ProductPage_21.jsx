@@ -1,10 +1,10 @@
 import React from 'react'
 import productimage from "../PVC-FLOORING/assests/productimages/floorp3.webp";
-import image1 from "../ProductsPages/assests/floorone.jpeg"
-import image2 from "../ProductsPages/assests/floortwo.jpeg"
-import image3 from "../ProductsPages/assests/floorthree.jpeg"
-import image4 from "../appBar/assets/ware.png" 
-import image5 from "../PVC-FLOORING/assests/productimages/made.webp" 
+import image1 from "../ProductsPages/assests/floorone.jpeg";
+import image2 from "../ProductsPages/assests/floortwo.jpeg";
+import image3 from "../ProductsPages/assests/floorthree.jpeg";
+import image4 from "../appBar/assets/ware.png" ;
+import image5 from "../PVC-FLOORING/assests/productimages/made.webp" ;
 import "../ProductsPages/Productpage.css";
 
 const ProductPage_21 = () => {

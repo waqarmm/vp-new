@@ -1,9 +1,9 @@
 import React from 'react'
 import productimage from "../PVC-WallPanel/assets/panelProducts/panel1.webp";
-import image1 from "../ProductsPages/assests/panelone.jpeg"
-import image2 from "../ProductsPages/assests/paneltwo.jpeg"
-import image3 from "../ProductsPages/assests/panelthree.jpeg"
-import image4 from "../appBar/assets/ware.png" 
+import image1 from "../ProductsPages/assests/panelone.jpeg";
+import image2 from "../ProductsPages/assests/paneltwo.jpeg";
+import image3 from "../ProductsPages/assests/panelthree.jpeg";
+import image4 from "../appBar/assets/ware.png" ;
 import "../ProductsPages/Productpage.css";
 
 const ProductPage_10 = () => {

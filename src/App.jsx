@@ -21,7 +21,8 @@ import ProductPage_5 from "./myComponents/ProductsPages/ProductPage_5";
 import ProductPage_7 from "./myComponents/ProductsPages/ProductPage_7";
 import ProductPage_8 from "./myComponents/ProductsPages/ProductPage_8";
 import ProductPage_9 from "./myComponents/ProductsPages/ProductPage_9";
-import ProductPage_10 from "./myComponents/ProductsPages/ProductPage_19";
+import ProductPage_10 from "./myComponents/ProductsPages/ProductPage_10";
+import ProductPage_11 from "./myComponents/ProductsPages/ProductPage_11";
 import ProductPage_12 from "./myComponents/ProductsPages/ProductPage_12";
 import ProductPage_13 from "./myComponents/ProductsPages/ProductPage_13";
 import ProductPage_14 from "./myComponents/ProductsPages/ProductPage_14";
@@ -29,8 +30,17 @@ import ProductPage_15 from "./myComponents/ProductsPages/ProductPage_15";
 import ProductPage_16 from "./myComponents/ProductsPages/ProductPage_16";
 import ProductPage_17 from "./myComponents/ProductsPages/ProductPage_17";
 import ProductPage_18 from "./myComponents/ProductsPages/ProductPage_18";
-import productpage_19 from "./myComponents/ProductsPages/ProductPage_19";
+import ProductPage_19 from "./myComponents/ProductsPages/ProductPage_19";
 import ProductPage_20 from "./myComponents/ProductsPages/ProductPage_20";
+import ProductPage_21 from "./myComponents/ProductsPages/ProductPage_21";
+import ProductPage_22 from "./myComponents/ProductsPages/ProductPage_22";
+import ProductPage_23 from "./myComponents/ProductsPages/ProductPage_23";
+import ProductPage_24 from "./myComponents/ProductsPages/ProductPage_24";
+import ProductPage_25 from "./myComponents/ProductsPages/ProductPage_25";
+import ProductPage_26 from "./myComponents/ProductsPages/ProductPage_26";
+import ProductPage_27 from "./myComponents/ProductsPages/ProductPage_27";
+
+
 
 
 
@@ -45,7 +55,6 @@ const App = () => {
             <Route path="/Marble-Sheets" element={<WPCWallPanel />} />
             <Route path="/WPC-WallPanels" element={<WPCTimberTube/>} />
             <Route path="/WPC-Flooring" element={< WPCFlatPanel/>} />
-            {/* <Route path="/products" element={<Products />} /> */}
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/slider" element={<Slider />} />
@@ -70,6 +79,13 @@ const App = () => {
             <Route path="/productpage_18" element={<ProductPage_18/>}/>
             <Route path="/productpage_19" element={<ProductPage_19/>}/>
             <Route path="/productpage_20" element={<ProductPage_20/>}/>
+            <Route path="/productpage_21" element={<ProductPage_21/>}/>
+            <Route path="/productpage_22" element={<ProductPage_22/>}/>
+            <Route path="/productpage_23" element={<ProductPage_23/>}/>
+            <Route path="/productpage_24" element={<ProductPage_24/>}/>
+            <Route path="/productpage_25" element={<ProductPage_25/>}/>
+            <Route path="/productpage_26" element={<ProductPage_26/>}/>
+            <Route path="/productpage_27" element={<ProductPage_27/>}/>
           </Routes>
         </div>
       </Router>

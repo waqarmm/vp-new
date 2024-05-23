@@ -34,7 +34,7 @@ const Home = () => {
             <WarehouseHome/>
       
       <Footer />
-      <Productpage/>
+      {/* <Productpage/> */}
       
  
     </div>

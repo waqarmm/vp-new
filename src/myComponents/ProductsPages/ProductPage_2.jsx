@@ -1,9 +1,9 @@
 import React from 'react'
 import productimage from "../Slider-details/assests/marbleProducts/imgthree.png";
-import image1 from "../ProductsPages/assests/marble.jpeg"
-import image2 from "../ProductsPages/assests/marble2.jpeg"
-import image3 from "../ProductsPages/assests/marble3.jpeg"
-import image4 from "../appBar/assets/ware.png" 
+import image1 from "../ProductsPages/assests/marble.jpeg";
+import image2 from "../ProductsPages/assests/marble2.jpeg";
+import image3 from "../ProductsPages/assests/marble3.jpeg";
+import image4 from "../appBar/assets/ware.png" ;
 import "../ProductsPages/Productpage.css";
 
 const ProductPage_2 = () => {
