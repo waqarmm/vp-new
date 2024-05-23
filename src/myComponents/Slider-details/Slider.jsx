@@ -172,7 +172,7 @@ const Slider = (props) => {
           patternSixDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
         />
       </div>
-      <FAQ/>
+      {/* <FAQ/> */}
       <Footer/>
     </>
   );

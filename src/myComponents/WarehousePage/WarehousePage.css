@@ -5,6 +5,7 @@
   background-image: url("../WarehousePage/assets/ware1.png");
   background-size: cover;
   background-position: center;
+  z-index: 1;
 }
 
 .warehouse-banner-content {

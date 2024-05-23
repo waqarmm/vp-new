@@ -153,6 +153,16 @@ const Navbar = () => {
           >
             <ListItemText className="av" primary="Products" />
           </ListItem> */}
+
+
+<ListItem
+            button
+            component={Link}
+            to="/warehouse-page"
+            onClick={handleDrawerClose}
+          >
+            <ListItemText className="av" primary="Our Showroom" />
+          </ListItem>
           <ListItem
             button
             component={Link}
@@ -161,6 +171,9 @@ const Navbar = () => {
           >
             <ListItemText className="av" primary="About Us" />
           </ListItem>
+         
+          
+          
           <ListItem
             button
             component={Link}

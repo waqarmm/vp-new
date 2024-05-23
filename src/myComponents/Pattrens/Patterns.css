@@ -14,6 +14,7 @@
   }
   .patterns-container {
     width: 100%;
+    margin-bottom: 60px;
   }
   .patterns-cards {
     display: flex;
@@ -154,7 +155,7 @@
     .patterns-card-four,
     .patterns-card-five,
     .patterns-card-six {
-      height: 65vh;
+      height: 75vh;
       display: block; 
       display: flex;
       flex-direction: column; 
@@ -207,3 +208,25 @@
         height: 50%;
       }
   }
+
+  @media only   screen and (max-width:400px){
+    .patterns-card-one-des,
+    .patterns-card-two-des,
+    .patterns-card-three-des,
+    .patterns-card-four-des,
+    .patterns-card-five-des,
+    .patterns-card-six-des {
+      width: 100%;
+      /* background-color: aqua; */
+      height: 100%; 
+    }     
+    .patterns-card-one-img,
+    .patterns-card-two-img,
+    .patterns-card-three-img,
+    .patterns-card-four-img,
+    .patterns-card-five-img,
+    .patterns-card-six-img {
+      width: 100%;
+      height: 50%;
+    }
+}

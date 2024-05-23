@@ -176,7 +176,7 @@ const Wallpanel = (props) => {
         />
       </div>
       <FAQ />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
