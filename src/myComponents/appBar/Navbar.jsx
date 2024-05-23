@@ -69,7 +69,7 @@ const Navbar = () => {
                         
                         color="black"
                         aria-label="whatsapp"
-                        href="https://wa.me/+971508194493?text=hey!"
+                        href="https://wa.me/+971508194493?text=I need help ? !"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

@@ -12,6 +12,26 @@ import AboutUs from "./myComponents/appBar/AboutUs";
 import ContactUs from "./myComponents/appBar/ContactUs";
 import Slider from "./myComponents/Slider-details/Slider";
 import WarehousePage from "./myComponents/WarehousePage/WarehousePage";
+import Productpage from "./myComponents/ProductsPages/Productpage";
+import ProductPage_1 from "./myComponents/ProductsPages/ProductPage_1";
+import ProductPage_2 from "./myComponents/ProductsPages/ProductPage_2";
+import ProductPage_3 from "./myComponents/ProductsPages/ProductPage_3";
+import ProductPage_4 from "./myComponents/ProductsPages/ProductPage_4";
+import ProductPage_5 from "./myComponents/ProductsPages/ProductPage_5";
+import ProductPage_7 from "./myComponents/ProductsPages/ProductPage_7";
+import ProductPage_8 from "./myComponents/ProductsPages/ProductPage_8";
+import ProductPage_9 from "./myComponents/ProductsPages/ProductPage_9";
+import ProductPage_10 from "./myComponents/ProductsPages/ProductPage_19";
+import ProductPage_12 from "./myComponents/ProductsPages/ProductPage_12";
+import ProductPage_13 from "./myComponents/ProductsPages/ProductPage_13";
+import ProductPage_14 from "./myComponents/ProductsPages/ProductPage_14";
+import ProductPage_15 from "./myComponents/ProductsPages/ProductPage_15";
+import ProductPage_16 from "./myComponents/ProductsPages/ProductPage_16";
+import ProductPage_17 from "./myComponents/ProductsPages/ProductPage_17";
+import ProductPage_18 from "./myComponents/ProductsPages/ProductPage_18";
+import productpage_19 from "./myComponents/ProductsPages/ProductPage_19";
+import ProductPage_20 from "./myComponents/ProductsPages/ProductPage_20";
+
 
 
 const App = () => {
@@ -30,6 +50,26 @@ const App = () => {
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/slider" element={<Slider />} />
             <Route path="/warehouse-page" element={<WarehousePage/>}/>
+            <Route path="/productpage" element={<Productpage/>}/>
+            <Route path="/productpage_1" element={<ProductPage_1/>}/>
+            <Route path="/productpage_2" element={<ProductPage_2/>}/>
+            <Route path="/productpage_3" element={<ProductPage_3/>}/>
+            <Route path="/productpage_4" element={<ProductPage_4/>}/>
+            <Route path="/productpage_5" element={<ProductPage_5/>}/>
+            <Route path="/productpage_7" element={<ProductPage_7/>}/>
+            <Route path="/productpage_8" element={<ProductPage_8/>}/>
+            <Route path="/productpage_9" element={<ProductPage_9/>}/>
+            <Route path="/productpage_10" element={<ProductPage_10/>}/>
+            <Route path="/productpage_11" element={<ProductPage_11/>}/>
+            <Route path="/productpage_12" element={<ProductPage_12/>}/>
+            <Route path="/productpage_13" element={<ProductPage_13/>}/>
+            <Route path="/productpage_14" element={<ProductPage_14/>}/>
+            <Route path="/productpage_15" element={<ProductPage_15/>}/>
+            <Route path="/productpage_16" element={<ProductPage_16/>}/>
+            <Route path="/productpage_17" element={<ProductPage_17/>}/>
+            <Route path="/productpage_18" element={<ProductPage_18/>}/>
+            <Route path="/productpage_19" element={<ProductPage_19/>}/>
+            <Route path="/productpage_20" element={<ProductPage_20/>}/>
           </Routes>
         </div>
       </Router>

@@ -1,12 +1,13 @@
 import React from 'react'
-import productimage from "../PVC-WallPanel/assets/panelProducts/panel1.webp";
-import image1 from "../ProductsPages/assests/panelone.jpeg"
-import image2 from "../ProductsPages/assests/paneltwo.jpeg"
-import image3 from "../ProductsPages/assests/panelthree.jpeg"
+import productimage from "../PVC-FLOORING/assests/productimages/floorp1.webp";
+import image1 from "../ProductsPages/assests/floorone.jpeg"
+import image2 from "../ProductsPages/assests/floortwo.jpeg"
+import image3 from "../ProductsPages/assests/floorthree.jpeg"
 import image4 from "../appBar/assets/ware.png" 
+import image5 from "../PVC-FLOORING/assests/productimages/made.webp" 
 import "../ProductsPages/Productpage.css";
 
-const ProductPage_10 = () => {
+const productpage_19 = () => {
   return (
     <div className="product-page-sec">
       <div className="product-page">
@@ -90,7 +91,7 @@ const ProductPage_10 = () => {
       </div>
       <div className="product-detail-image">
         <h2>installation</h2>
-        <img src={image1} alt="" />
+        <img src={image5} alt="" />
         <img src={image4} alt="" />  
         <h2>colors</h2>
         <img src={image2} alt="" />
@@ -103,4 +104,4 @@ const ProductPage_10 = () => {
   )
 }
 
-export default ProductPage_10
+export default productpage_19

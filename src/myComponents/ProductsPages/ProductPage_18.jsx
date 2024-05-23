@@ -1,5 +1,5 @@
 import React from 'react'
-import productimage from "../PVC-WallPanel/assets/panelProducts/panel9.webp";
+import productimage from "../PVC-WallPanel/assets/panelProducts/panel2.webp";
 import image1 from "../ProductsPages/assests/panelone.jpeg"
 import image2 from "../ProductsPages/assests/paneltwo.jpeg"
 import image3 from "../ProductsPages/assests/panelthree.jpeg"
