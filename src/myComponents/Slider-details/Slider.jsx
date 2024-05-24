@@ -20,16 +20,29 @@ import AnnouncementBar from "../Annoucement-bar/AnnouncementBar";
 import Patterns from "../Pattrens/Patterns";
 
 //last images
-import lastimgone from '../Slider-details/assests/marbleProducts/one.webp'
-import lastimgtwo from '../Slider-details/assests/marbleProducts/two.jpg'
-import lastimgthree from '../Slider-details/assests/marbleProducts/three.webp'
-import lastimgfour from '../Slider-details/assests/marbleProducts/four.webp'
-import lastimgfive from '../Slider-details/assests/marbleProducts/five.webp'
-import lastimgsix from '../Slider-details/assests/marbleProducts/six.webp'
+import lastimgone from "../Slider-details/assests/marbleProducts/one.webp";
+import lastimgtwo from "../Slider-details/assests/marbleProducts/two.jpg";
+import lastimgthree from "../Slider-details/assests/marbleProducts/three.webp";
+import lastimgfour from "../Slider-details/assests/marbleProducts/four.webp";
+import lastimgfive from "../Slider-details/assests/marbleProducts/five.webp";
+import lastimgsix from "../Slider-details/assests/marbleProducts/six.webp";
 import Footer from "../footer";
-import FAQ from "../FAQ";
+// import FAQ from "../FAQ";
+import { useNavigate } from "react-router-dom";
+
+// // const navigate = useNavigate();
+// const handleClick = () => {
+//
+//   // navigate ("/slider");
+// };
 
 const Slider = (props) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    // Redirect to the next page when the card is clicked
+    navigate("/slider");
+  };
+
   return (
     <>
       <AnnouncementBar />
@@ -62,7 +75,7 @@ const Slider = (props) => {
       </div>
 
       <div className="fixed-text">
-        <h3 className="h1">THE ELEGANT MARBLE PATTERN</h3>
+        <h3 className="h1">THE ELEGANT PVC MARBLE PATTERN</h3>
         <p
           style={{
             padding: "15px",
@@ -73,107 +86,110 @@ const Slider = (props) => {
             fontWeight: "lighter",
           }}
         >
-          The Marbal floor provides clean lines and therefore provides a modern
-          look <div className="br"></div> The lanes emphasize the length of the
-          space. This elegant pattern is a relief for the eye and an experience
-          in <br /> the room.
+          The PVC Marbal Sheet provides clean lines and therefore provides a
+          modern look <div className="br"></div> The lanes emphasize the length
+          of the space. This elegant pattern is a relief for the eye and an
+          experience in <br /> the room.
         </p>
       </div>
       <div className="hot-products2">
         <div className="hot-products-heading2">
-          <h1>VIEW OUR STYLISH CUSTOM MARBLE</h1>
+          <h1>VIEW OUR STYLISH CUSTOM PVC MARBLE SHEETS</h1>
           <p className="p">
-            We have the Marble floor available in various widths, lengths and
-            at 2 different angles. All in 90 different colors so that there are
+            We have the PVC Marble Sheet available in various widths, lengths
+            and at different angles. All in different colors so that there are
             options for everyone. Would you like to come by for interior advice?
           </p>
         </div>
-        <div className="catlog-containerone" >
-        <div className="hot-products-items2">
-          <Slidercard
-            Cardimage={proimgone}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-          <Slidercard
-            Cardimage={proimgtwo}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-          <Slidercard
-            Cardimage={proimgthree}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-          <Slidercard
-            Cardimage={proimgfour}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-          <Slidercard
-            Cardimage={proimgfive}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-          <Slidercard
-            Cardimage={proimgsix}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-          <Slidercard
-            Cardimage={proimgseven}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-          <Slidercard
-            Cardimage={proimgeight}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-          <Slidercard
-            Cardimage={proimgnine}
-            productCardDescription={
-              "The Marbal floor provides clean lines and therefore provides a modern look"
-            }
-          />
-        </div>
+        <div className="catlog-containerone">
+          <div className="hot-products-items2">
+            <div onClick={handleClick} style={{ cursor: "pointer" }}>
+              <Slidercard
+                // onClick={handleClick}
+                Cardimage={proimgone}
+                productCardDescription={
+                  "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+                }
+              />
+            </div>
+            <Slidercard
+              Cardimage={proimgtwo}
+              productCardDescription={
+                "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+              }
+            />
+            <Slidercard
+              Cardimage={proimgthree}
+              productCardDescription={
+                "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+              }
+            />
+            <Slidercard
+              Cardimage={proimgfour}
+              productCardDescription={
+                "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+              }
+            />
+            <Slidercard
+              Cardimage={proimgfive}
+              productCardDescription={
+                "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+              }
+            />
+            <Slidercard
+              Cardimage={proimgsix}
+              productCardDescription={
+                "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+              }
+            />
+            <Slidercard
+              Cardimage={proimgseven}
+              productCardDescription={
+                "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+              }
+            />
+            <Slidercard
+              Cardimage={proimgeight}
+              productCardDescription={
+                "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+              }
+            />
+            <Slidercard
+              Cardimage={proimgnine}
+              productCardDescription={
+                "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
+              }
+            />
+          </div>
         </div>
       </div>
 
       <div className="catlog-containerone">
         <Patterns
           patternHeading="MARBLE PATTERN DECORATION PHOTOS"
-          patternHeadDes="From sophisticated narrow planks to bold wide planks,Marble  add timeless elegance and contemporary grandeur to any space.From sophisticated narrow planks to bold wide planks,In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating Chevron pattern floors add timeless elegance and contemporary grandeur to any space"
+          patternHeadDes="From sophisticated narrow planks to bold wide planks,PVC Marble  add timeless elegance and contemporary grandeur to any space.From sophisticated narrow planks to bold wide planks,In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating Chevron pattern floors add timeless elegance and contemporary grandeur to any space"
           patternOneImage={lastimgone}
-          patternOneHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternOneDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating .In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating"
+          patternOneHead="HISTORIC BUILDING - PVC MARBLE SHEET"
+          patternOneDes="In this partly modernized historic building the client opted for a spacious, modern  PVC marble with underfloor heating .In this partly modernized historic building the client opted for a spacious, modern  floor with underfloor heating"
           patternTwoImage={lastimgtwo}
-          patternTwoHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternTwoDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating."
+          patternTwoHead="HISTORIC BUILDING - PVC MARBLE SHEET"
+          patternTwoDes="In this partly modernized historic building the client opted for a spacious, modern  PVC Marble Sheet with underfloor heating In this partly modernized historic building the client opted for a spacious, modern  floor with underfloor heating."
           patternThreeImage={lastimgthree}
-          patternThreeHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternThreeDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternThreeHead="HISTORIC BUILDING - PVC MARBLE SHEET"
+          patternThreeDes="In this partly modernized historic building the client opted for a spacious, modern  PVC Marble Sheet with underfloor heating In this partly modernized historic building the client opted for a spacious, modern  floor with underfloor heating ."
           patternFourImage={lastimgfour}
-          patternFourHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternFourDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternFourHead="HISTORIC BUILDING - PVC MARBLE SHEET"
+          patternFourDes="In this partly modernized historic building the client opted for a spacious, modern  PVC Marble Sheet with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern  floor with underfloor heating ."
           patternFiveImage={lastimgfive}
-          patternFiveHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternFiveDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating."
+          patternFiveHead="HISTORIC BUILDING - PVC MARBLE SHEET"
+          patternFiveDes="In this partly modernized historic building the client opted for a spacious, modern  PVC Marble Sheet with underfloor heating In this partly modernized historic building the client opted for a spacious, modern  floor with underfloor heating."
           patternSixImage={lastimgsix}
-          patternSixHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternSixDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternSixHead="HISTORIC BUILDING - PVC MARBLE SHEET"
+          patternSixDes="In this partly modernized historic building the client opted for a spacious, modern  PVC Marble Sheet with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern  floor with underfloor heating ."
         />
       </div>
       {/* <FAQ/> */}
-      <Footer/>
+      <Footer />
     </>
   );
 };

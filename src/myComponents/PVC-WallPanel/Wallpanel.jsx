@@ -108,43 +108,43 @@ const Wallpanel = (props) => {
             <FlooringProducts
               Cardimage={proimgthree}
               productCardDescription={
-                "Stone plastic composite Wall-panel"
+                "Stone plastic composite PVC Wall-panel"
               }
             />
             <FlooringProducts
               Cardimage={proimgfour}
               productCardDescription={
-                "Rigid core Wall-panel"
+                "Rigid core PVC Wall-panel"
               }
             />
             <FlooringProducts
               Cardimage={proimgfive}
               productCardDescription={
-                "SPC Wall-panel 4mm"
+                "PVC Wall-panel "
               }
             />
             <FlooringProducts
               Cardimage={proimgsix}
               productCardDescription={
-                "SPC Wall-Panel 6mm"
+                "PVC Wall-Panel "
               }
             />
             <FlooringProducts
               Cardimage={proimgseven}
               productCardDescription={
-                "Luxury vinyl Wall-Panel"
+                "Luxury vinyl PVC Wall-Panel"
               }
             />
             <FlooringProducts
               Cardimage={proimgeight}
               productCardDescription={
-            "Click-lock Easy installation Wall-Panel."
+            "Click-lock Easy installation PVC Wall-Panel."
               }
             />
             <FlooringProducts
               Cardimage={proimgnine}
               productCardDescription={
-                "PVC Wall-panel 5mm"
+                "PVC Wall-panel "
               }
             />
           </div>
@@ -156,27 +156,27 @@ const Wallpanel = (props) => {
           patternHeading="WALL-PANELS PATTERN DECORATION PHOTOS"
           patternHeadDes="From sophisticated narrow planks to bold wide planks,Marble  add timeless elegance and contemporary grandeur to any space.From sophisticated narrow planks to bold wide planks,In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating Chevron pattern floors add timeless elegance and contemporary grandeur to any space"
           patternOneImage={lastimgone}
-          patternOneHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternOneDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating .In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating"
+          patternOneHead="HISTORIC BUILDING - PVC WALL-PANEL"
+          patternOneDes="In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating .In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating"
           patternTwoImage={lastimgtwo}
-          patternTwoHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternTwoDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating."
+          patternTwoHead="HISTORIC BUILDING - PVC WALL-PANEL"
+          patternTwoDes="In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating."
           patternThreeImage={lastimgthree}
-          patternThreeHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternThreeDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternThreeHead="HISTORIC BUILDING - PVC WALL-PANEL"
+          patternThreeDes="In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating ."
           patternFourImage={lastimgfour}
-          patternFourHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternFourDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternFourHead="HISTORIC BUILDING - PVC WALL-PANEL"
+          patternFourDes="In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heatingIn this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating ."
           patternFiveImage={lastimgfive}
-          patternFiveHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternFiveDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating."
+          patternFiveHead="HISTORIC BUILDING - PVC WALL-PANEL"
+          patternFiveDes="In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating."
           patternSixImage={lastimgsix}
-          patternSixHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternSixDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternSixHead="HISTORIC BUILDING - PVC WALL-PANEL"
+          patternSixDes="In this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heatingIn this partly modernized historic building the client opted for a spacious, PVC Wall-Panel with underfloor heating ."
         />
       </div>
-      <FAQ />
-      {/* <Footer /> */}
+      {/* <FAQ /> */}
+      <Footer />
     </>
   )
 }

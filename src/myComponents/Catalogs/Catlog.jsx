@@ -42,7 +42,7 @@ const Cards = () => {
               {/* Card 3 */}
               <div className="card-three" onClick={handleClicked}>
                 <img src={ImgOne} alt="Image 3" />
-                <p>PVC Flooring, Where Comfort Meets Durability →</p>
+                <p>SPC Flooring, Where Comfort Meets Durability →</p>
               </div>
  
             </div>

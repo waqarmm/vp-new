@@ -65,7 +65,7 @@ const Flooring = (props) => {
       </div>
 
       <div className="fixed-text">
-        <h3 className="h1">THE ELEGANT FLOORING PATTERN</h3>
+        <h3 className="h1">THE ELEGANT SPC FLOORING PATTERN</h3>
         <p
           style={{
             padding: "15px",
@@ -84,10 +84,10 @@ const Flooring = (props) => {
       </div>
       <div className="hot-products2e">
         <div className="hot-products-heading2e">
-          <h1>VIEW OUR STYLISH CUSTOM MARBLE</h1>
+          <h1>VIEW OUR STYLISH CUSTOM SPC FLOORING</h1>
           <p className="p">
             We have the SPC Flooring available in various widths, lengths and at
-            2 different angles. All in 90 different colors so that there are
+             different angles. All in  different colors so that there are
             options for everyone. Would you like to come by for interior advice?
           </p>
         </div>
@@ -120,13 +120,13 @@ const Flooring = (props) => {
             <Slidercard
               Cardimage={proimgfive}
               productCardDescription={
-                "SPC flooring 4mm"
+                "SPC flooring "
               }
             />
             <Slidercard
               Cardimage={proimgsix}
               productCardDescription={
-                "SPC flooring 6mm"
+                "SPC flooring "
               }
             />
             <Slidercard
@@ -144,7 +144,7 @@ const Flooring = (props) => {
             <Slidercard
               Cardimage={proimgnine}
               productCardDescription={
-                "SPC flooring 5mm"
+                "SPC flooring "
               }
             />
           </div>
@@ -154,25 +154,25 @@ const Flooring = (props) => {
       <div className="catlog-containeronee">
         <Patterns
           patternHeading="FLOORING PATTERN DECORATION PHOTOS"
-          patternHeadDes="From sophisticated narrow planks to bold wide planks,Marble  add timeless elegance and contemporary grandeur to any space.From sophisticated narrow planks to bold wide planks,In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating Chevron pattern floors add timeless elegance and contemporary grandeur to any space"
+          patternHeadDes="From sophisticated narrow planks to bold wide planks,SPC FLOORING add timeless elegance and contemporary grandeur to any space.From sophisticated narrow planks to bold wide planks,In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating Chevron pattern floors add timeless elegance and contemporary grandeur to any space"
           patternOneImage={lastimgone}
-          patternOneHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternOneDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating .In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating"
+          patternOneHead="HISTORIC BUILDING - SPC FLOORING"
+          patternOneDes="In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating .In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating"
           patternTwoImage={lastimgtwo}
-          patternTwoHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternTwoDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating."
+          patternTwoHead="HISTORIC BUILDING - SPC FLOORING"
+          patternTwoDes="In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating."
           patternThreeImage={lastimgthree}
-          patternThreeHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternThreeDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternThreeHead="HISTORIC BUILDING - SPC FLOORING"
+          patternThreeDes="In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating ."
           patternFourImage={lastimgfour}
-          patternFourHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternFourDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternFourHead="HISTORIC BUILDING - SPC FLOORING"
+          patternFourDes="In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heatingIn this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating ."
           patternFiveImage={lastimgfive}
-          patternFiveHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternFiveDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating."
+          patternFiveHead="HISTORIC BUILDING - SPC FLOORING"
+          patternFiveDes="In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating."
           patternSixImage={lastimgsix}
-          patternSixHead="HISTORIC BUILDING - NOBLE WHITE"
-          patternSixDes="In this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heatingIn this partly modernized historic building the client opted for a spacious, modern chevron floor with underfloor heating ."
+          patternSixHead="HISTORIC BUILDING - SPC FLOORING"
+          patternSixDes="In this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heatingIn this partly modernized historic building the client opted for a spacious, SPC Flooring with underfloor heating ."
         />
       </div>
       {/* <FAQ /> */}

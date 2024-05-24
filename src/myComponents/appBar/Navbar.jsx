@@ -121,7 +121,7 @@ const Navbar = () => {
                 to="WPC-WallPanels"
                 onClick={handleDrawerClose}
               >
-                <ListItemText className="av" primary="WPC Wall Panel" />
+                <ListItemText className="av" primary="PVC Wall Panel" />
               </ListItem>
               <ListItem
                 button
@@ -129,7 +129,7 @@ const Navbar = () => {
                 to="WPC-Flooring"
                 onClick={handleDrawerClose}
               >
-                <ListItemText className="av" primary="WPC Floor Panel" />
+                <ListItemText className="av" primary="SPC Flooring" />
               </ListItem>
               <ListItem
                 button
@@ -137,7 +137,7 @@ const Navbar = () => {
                 to="/Marble-Sheets"
                 onClick={handleDrawerClose}
               >
-                <ListItemText className="av" primary="WPC Marble Sheet" />
+                <ListItemText className="av" primary="PVC Marble Sheet" />
               </ListItem>
               
             </List>

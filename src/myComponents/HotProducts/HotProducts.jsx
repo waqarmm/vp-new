@@ -27,39 +27,39 @@ function HotProducts() {
       <div className="hot-products-items">
         <ProductCard
           productimage={proimgone}
-          productdescription="Chinese manufacturer providing high quality and stable price of wpc wall cladding"
+          productdescription="Chinese manufacturer providing high quality and stable price of PVC wall cladding"
         />
         <ProductCard
           productimage={proimgtwo}
-          productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
+          productdescription="Visionary_Products providing high quality and stable price of PVC wall cladding"
         />
         <ProductCard
           productimage={proimgthree}
-          productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
+          productdescription="Visionary_Products providing high quality and stable price of PVC wall cladding"
         />
         <ProductCard
           productimage={proimgfour}
-          productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
+          productdescription="Visionary_Products providing high quality and stable price of PVC Marble Sheet"
         />
         <ProductCard
           productimage={proimgfive}
-          productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
+          productdescription="Visionary_Products providing high quality and stable price of PVC Marble Sheet"
         />
         <ProductCard
           productimage={proimgsix}
-          productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
+          productdescription="Visionary_Products providing high quality and stable price of PVC Marble Sheet"
         />
         <ProductCard
           productimage={proimgseven}
-          productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
+          productdescription="Visionary_Products providing high quality and stable price of PVC wall cladding"
         />
         <ProductCard
           productimage={proimgeight}
-          productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
+          productdescription="Visionary_Products providing high quality and stable price of PVC wall cladding"
         />
         <ProductCard
           productimage={proimgnine}
-          productdescription="Visionary_Products providing high quality and stable price of wpc wall cladding"
+          productdescription="Visionary_Products providing high quality and stable price of PVC wall cladding"
         /> 
        
       </div>
