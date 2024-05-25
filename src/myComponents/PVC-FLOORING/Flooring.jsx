@@ -29,10 +29,57 @@ import lastimgfour from "../PVC-FLOORING/assests/decorimages/decor4.jpg";
 import lastimgfive from "../PVC-FLOORING/assests/decorimages/decor5.jpg";
 import lastimgsix from "../PVC-FLOORING/assests/decorimages/decor6.jpg";
 import Footer from "../footer";
-import FAQ from "../FAQ";
+import { useNavigate } from "react-router-dom";
+// import FAQ from "../FAQ";
 // import FlooringProducts from "./FlooringProducts";
 
 const Flooring = (props) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_19");
+  };
+  const handleClick1 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_20");
+  };
+  const handleClick2 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_21");
+  };
+  const handleClick3 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_22");
+  };
+  const handleClick4 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_23");
+  };
+  const handleClick5 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_24");
+  };
+  const handleClick6 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_25");
+  };
+  const handleClick7 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_26");
+  };
+  const handleClick8 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_27");
+  };
   return (
     <>
       <AnnouncementBar />
@@ -93,60 +140,82 @@ const Flooring = (props) => {
         </div>
         <div className="catlog-containeronee">
           <div className="hot-products-items2e">
-            <Slidercard
-              Cardimage={proimgone}
-              productCardDescription={
-                "Click-lock Easy installation flooring"
-              }
-            />
+
+          <div onClick={handleClick} style={{ cursor: "pointer" }}>
+              <Slidercard
+                // onClick={handleClick}
+                Cardimage={proimgone}
+                productCardDescription={
+                  "Click-lock Easy installation flooring"
+                }
+              />
+            </div>
+          <div onClick={handleClick1} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgtwo}
               productCardDescription={
                 "Waterproof SPC Flooring"
               }
             />
+          </div>
+          <div onClick={handleClick2} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgthree}
               productCardDescription={
                 "Stone plastic composite flooring"
               }
+
+              
             />
+          </div>
+          <div onClick={handleClick3} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgfour}
+              productCardDescription={
+                "Stone plastic composite flooring"
+              }
+            />
+          </div>
+         <div onClick={handleClick4} style={{ cursor: "pointer" }}>
+            <Slidercard
+              Cardimage={proimgfive}
               productCardDescription={
                 "Rigid core flooring"
               }
             />
-            <Slidercard
-              Cardimage={proimgfive}
-              productCardDescription={
-                "SPC flooring "
-              }
-            />
+          </div>
+          <div onClick={handleClick5} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgsix}
               productCardDescription={
                 "SPC flooring "
               }
             />
+          </div>
+          <div onClick={handleClick6} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgseven}
-              productCardDescription={
-                "Luxury vinyl flooring"
-              }
-            />
-            <Slidercard
-              Cardimage={proimgeight}
-              productCardDescription={
-            "Click-lock Easy installation flooring."
-              }
-            />
-            <Slidercard
-              Cardimage={proimgnine}
               productCardDescription={
                 "SPC flooring "
               }
             />
+          </div>
+          <div onClick={handleClick7} style={{ cursor: "pointer" }}>
+            <Slidercard
+              Cardimage={proimgeight}
+              productCardDescription={
+                "Luxury vinyl flooring"
+              }
+            />
+          </div>
+          <div onClick={handleClick8} style={{ cursor: "pointer" }}>
+            <Slidercard
+              Cardimage={proimgnine}
+              productCardDescription={
+                "Click-lock Easy installation flooring."
+              }
+            />
+          </div>        
           </div>
         </div>
       </div>

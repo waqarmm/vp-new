@@ -29,11 +29,59 @@ import lastimgfour from "../PVC-WallPanel/assets/productsimg/wall4.jpg";
 import lastimgfive from "../PVC-WallPanel/assets/productsimg/wall5.jpg";
 import lastimgsix from "../PVC-WallPanel/assets/productsimg/wall6.jpg";
 import Footer from "../footer";
+import { useNavigate } from "react-router-dom";
 import FAQ from "../FAQ";
-import FlooringProducts from "../PVC-FLOORING/FlooringProducts";
+import Slidercard from "../Slider-details/Slidercard";
+// import FlooringProducts from "../PVC-FLOORING/FlooringProducts";
 
 const Wallpanel = (props) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_10");
+  };
+  const handleClick1 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_11");
+  };
+  const handleClick2 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_12");
+  };
+  const handleClick3 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_13");
+  };
+  const handleClick4 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_14");
+  };
+  const handleClick5 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_15");
+  };
+  const handleClick6 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_16");
+  };
+  const handleClick7 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_17");
+  };
+  const handleClick8 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_18");}
   return (
+
     <>
       <AnnouncementBar />
       <div className="catlog-containeronee">
@@ -93,60 +141,82 @@ const Wallpanel = (props) => {
         </div>
         <div className="catlog-containeronee">
           <div className="hot-products-items2e">
-            <FlooringProducts
-              Cardimage={proimgone}
-              productCardDescription={
-                "Click-lock Easy installation wall-panel"
-              }
-            />
-            <FlooringProducts
+
+          <div onClick={handleClick} style={{ cursor: "pointer" }}>
+              <Slidercard
+                // onClick={handleClick}
+                Cardimage={proimgone}
+                productCardDescription={
+                  "Click-lock Easy installation PVC wall-panel"
+                }
+              />
+            </div>
+          <div onClick={handleClick1} style={{ cursor: "pointer" }}>
+            <Slidercard
               Cardimage={proimgtwo}
               productCardDescription={
                 "Waterproof PVC Wall-panel"
               }
             />
-            <FlooringProducts
+          </div>
+          <div onClick={handleClick2} style={{ cursor: "pointer" }}>
+            <Slidercard
               Cardimage={proimgthree}
               productCardDescription={
-                "Stone plastic composite PVC Wall-panel"
+                " High-quality polyvinyl chloride Wall-panel"
               }
+
+              
             />
-            <FlooringProducts
+          </div>
+          <div onClick={handleClick3} style={{ cursor: "pointer" }}>
+            <Slidercard
               Cardimage={proimgfour}
               productCardDescription={
                 "Rigid core PVC Wall-panel"
               }
             />
-            <FlooringProducts
+          </div>
+         <div onClick={handleClick4} style={{ cursor: "pointer" }}>
+            <Slidercard
               Cardimage={proimgfive}
+              productCardDescription={
+                " High-quality polyvinyl chloride Wall-panel"
+              }
+            />
+          </div>
+          <div onClick={handleClick5} style={{ cursor: "pointer" }}>
+            <Slidercard
+              Cardimage={proimgsix}
               productCardDescription={
                 "PVC Wall-panel "
               }
             />
-            <FlooringProducts
-              Cardimage={proimgsix}
+          </div>
+          <div onClick={handleClick6} style={{ cursor: "pointer" }}>
+            <Slidercard
+              Cardimage={proimgseven}
               productCardDescription={
-                "PVC Wall-Panel "
+                "Luxury PVC Panel"
               }
             />
-            <FlooringProducts
-              Cardimage={proimgseven}
+          </div>
+          <div onClick={handleClick7} style={{ cursor: "pointer" }}>
+            <Slidercard
+              Cardimage={proimgeight}
+              productCardDescription={
+                "Click-lock Easy installation PVC Wall-Panel."
+              }
+            />
+          </div>
+          <div onClick={handleClick8} style={{ cursor: "pointer" }}>
+            <Slidercard
+              Cardimage={proimgnine}
               productCardDescription={
                 "Luxury vinyl PVC Wall-Panel"
               }
             />
-            <FlooringProducts
-              Cardimage={proimgeight}
-              productCardDescription={
-            "Click-lock Easy installation PVC Wall-Panel."
-              }
-            />
-            <FlooringProducts
-              Cardimage={proimgnine}
-              productCardDescription={
-                "PVC Wall-panel "
-              }
-            />
+          </div>  
           </div>
         </div>
       </div>

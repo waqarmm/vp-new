@@ -39,9 +39,52 @@ import { useNavigate } from "react-router-dom";
 const Slider = (props) => {
   const navigate = useNavigate();
   const handleClick = () => {
+    window.scrollTo(0, 0);
     // Redirect to the next page when the card is clicked
-    navigate("/slider");
+    navigate("/productpage");
   };
+  const handleClick1 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_1");
+  };
+  const handleClick2 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_2");
+  };
+  const handleClick3 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_3");
+  };
+  const handleClick4 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_4");
+  };
+  const handleClick5 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_5");
+  };
+  const handleClick6 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_7");
+  };
+  const handleClick7 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_8");
+  };
+  const handleClick8 = () => {
+    window.scrollTo(0, 0);
+    // Redirect to the next page when the card is clicked
+    navigate("/productpage_9");
+  };
+
+  
 
   return (
     <>
@@ -112,54 +155,72 @@ const Slider = (props) => {
                 }
               />
             </div>
+          <div onClick={handleClick1} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgtwo}
               productCardDescription={
                 "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
               }
             />
+          </div>
+          <div onClick={handleClick2} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgthree}
               productCardDescription={
                 "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
               }
+
+              
             />
+          </div>
+          <div onClick={handleClick3} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgfour}
               productCardDescription={
                 "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
               }
             />
+          </div>
+         <div onClick={handleClick4} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgfive}
               productCardDescription={
                 "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
               }
             />
+          </div>
+          <div onClick={handleClick5} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgsix}
               productCardDescription={
                 "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
               }
             />
+          </div>
+          <div onClick={handleClick6} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgseven}
               productCardDescription={
                 "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
               }
             />
+          </div>
+          <div onClick={handleClick7} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgeight}
               productCardDescription={
                 "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
               }
             />
+          </div>
+          <div onClick={handleClick8} style={{ cursor: "pointer" }}>
             <Slidercard
               Cardimage={proimgnine}
               productCardDescription={
                 "The PVC Marbal Sheet provides clean lines and therefore provides a modern look"
               }
             />
+          </div>  
           </div>
         </div>
       </div>
