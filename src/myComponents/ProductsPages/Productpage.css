@@ -58,12 +58,15 @@
   height: 100%;
   background-color: white;
   overflow: scroll;
+
+
 }
 .pro-content h2 { 
   width: 80%;
   margin: 50px auto 0 auto;
   font-family: sans-serif;
   font-stretch: condensed;
+  text-align: start;  
 }
 .pro-content p {
   width: 80%;
@@ -115,7 +118,7 @@ text-decoration: underline;
 @media only screen and (max-width: 920px) {
   .product-des {
     height: 290vh;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
   .product-name p {
     font-family: sans-serif;
@@ -158,12 +161,14 @@ text-decoration: underline;
     /* width: 90%; */
     /* margin: 30px auto 5px auto; */
   }
+
     .product-name p {
     font-family: sans-serif;
     font-stretch: ultra-condensed;
     width: 95%;
     text-align: start;
     margin: 0 auto;
+    /* text-align: start; */
     overflow: scroll;
     font-size: 15.9px;
     line-height: 24px;
